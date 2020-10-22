@@ -158,16 +158,19 @@
           <nuxt-link :to="localePath('index')"
             >
             <img
-              alt="Code4Moldova"
-              src="../assets/code4moldova.png"
-              class="mt-3 mb-2" /><br />
-          <span>&copy; 2020 Code for Moldova.</span>
-              <img
               alt="Code4ro"
               src="../assets/code4RoGrey.svg"
               class="mt-3 mb-2" /></nuxt-link
           ><br />
           <span>&copy; 2020 Code for Romania.</span>
+          <nuxt-link :to="localePath('index')"
+            >
+            <img
+              alt="Code4mo"
+              src="../assets/code4moldova.png"
+              class="mt-3 mb-2" /></nuxt-link
+          ><br />
+          <span>&copy; 2020 Code for Moldova.</span>
           <p>
             Organizație neguvernamentală independentă, neafiliată politic și
             apolitică.
