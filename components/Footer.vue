@@ -73,6 +73,15 @@
           <h3 class="link-title h5">Ecosistem Alegeri</h3>
           <nav>
             <ul class="list-unstyled">
+            <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://votdiaspora.ro/"
+                >
+                  Vot Diaspora
+                </a>
+              </li>
               <li>
                 <a
                   target="_blank"
@@ -100,11 +109,20 @@
                   Rezultate Vot
                 </a>
               </li>
-              <li>
+               <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://code4.ro/ro/"
+                >
+                  Code for Moldovia
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://code4-md.vercel.app/"
                 >
                   Code for Romania
                 </a>
