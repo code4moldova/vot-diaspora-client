@@ -113,7 +113,7 @@
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://code4.ro/ro/"
+                  href="https://code4-md.vercel.app/"
                 >
                   Code for Moldovia
                 </a>
@@ -122,7 +122,7 @@
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://code4-md.vercel.app/"
+                  href="https://code4ro/ro"
                 >
                   Code for Romania
                 </a>
