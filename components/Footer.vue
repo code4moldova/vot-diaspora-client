@@ -156,7 +156,13 @@
             </li>
           </ul>
           <nuxt-link :to="localePath('index')"
-            ><img
+            >
+            <img
+              alt="Code4Moldova"
+              src="../assets/code4Moldova.png"
+              class="mt-3 mb-2" /><br />
+          <span>&copy; 2020 Code for Moldova.</span>
+              <img
               alt="Code4ro"
               src="../assets/code4RoGrey.svg"
               class="mt-3 mb-2" /></nuxt-link
