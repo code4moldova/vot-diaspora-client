@@ -122,7 +122,7 @@
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://code4ro/ro"
+                  href="https://code4.ro/ro/"
                 >
                   Code for Romania
                 </a>
