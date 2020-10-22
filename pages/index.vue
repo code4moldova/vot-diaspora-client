@@ -7,22 +7,6 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid py-4 mt-4 mb-5 bg-warning">
-      <div class="row">
-        <p class="col-10">
-          {{ $t('info_text') }}
-        </p>
-        <div class="col-2 my-auto">
-          <a
-            class="btn-lg btn-block btn-primary text-white text-center"
-            href="https://votromania.ro/"
-            rel="noopener noreferrer"
-            target="_blank"
-            >Vot România</a
-          >
-        </div>
-      </div>
-    </div>
     <div class="container mt-4 mb-5">
       <div class="row">
         <div class="col-12">
