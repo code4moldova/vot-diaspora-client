@@ -159,7 +159,7 @@
             >
             <img
               alt="Code4Moldova"
-              src="../assets/code4Moldova.png"
+              src="../assets/code4moldova.png"
               class="mt-3 mb-2" /><br />
           <span>&copy; 2020 Code for Moldova.</span>
               <img
