@@ -153,16 +153,15 @@
                 rel="noopener noreferrer"
                 >Abonează-te la newsletter</a
               >
-            </li>
+           </li>
           </ul>
           <nuxt-link :to="localePath('index')"
-            >
-              <img
-              alt="Code4mo"
-              src="../assets/code4moldova.png"
+            ><img
+              alt="Code4ro"
+              src="../assets/code4RoGrey.svg"
               class="mt-3 mb-2" /></nuxt-link
           ><br />
-          <span>&copy; 2020 Code for Moldova.</span>
+          <span>&copy; 2020 Code for Romania.</span>
           <p>
             Organizație neguvernamentală independentă, neafiliată politic și
             apolitică.
@@ -180,10 +179,10 @@ footer {
 footer a {
   color: #fff;
 }
-
 .social-link-item {
   img {
     border-radius: 5px;
   }
 }
 </style>
+© 2020 GitHub, Inc.
