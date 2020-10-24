@@ -13,10 +13,6 @@
         <p>{{ $t('about.p2') }}</p>
         <img src="../assets/code4Romania.svg" alt="Code4Romania" />
       </div>
-      <div class="col-md-4">
-        <p>{{ $t('about.p3') }}</p>
-        <img src="../assets/bst_logo.jpg" alt="Black See Trust" />
-      </div>
     </div>
     <hr />
   </div>
