@@ -8,7 +8,7 @@
         class="text-dark d-flex flex-column flex-sm-row align-items-center"
         ><img
           class="navbar-brand mr-2"
-          src="../assets/logo_horizontal.svg"
+          src="~/assets/logo_horizontal.svg"
           height="60"
           alt="Vot Diaspora" />
         <div class="mt-2">
