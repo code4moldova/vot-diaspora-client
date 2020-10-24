@@ -128,4 +128,7 @@ export default {
       <a href="http://www.youronlinechoices.com/ro/">http://www.youronlinechoices.com/ro/</a>
     </p>`,
   },
+  sponsors: {
+    powered_by: 'При поддержке',
+  },
 }
