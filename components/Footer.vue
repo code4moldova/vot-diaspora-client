@@ -113,7 +113,7 @@
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://code4-md.vercel.app/"
+                  href="https://code4.md/"
                 >
                   Code for Moldovia
                 </a>
