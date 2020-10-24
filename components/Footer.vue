@@ -104,7 +104,8 @@
           </ul>
           <nuxt-link :to="localePath('index')"
             ><img
-              alt="Code4md"
+              alt="Code4md" 
+              width="100"
               src="../assets/logo_code4md.svg"
               class="mt-3 mb-2" /></nuxt-link
           ><br />
