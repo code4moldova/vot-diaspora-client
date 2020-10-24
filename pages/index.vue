@@ -13,10 +13,10 @@
           <h2 class="h4 text-center">
             {{ $t('pollingStationSearch.question') }}
           </h2>
-          <div
-            class="text-center"
-            v-html="$t('pollingStationSearch.callToAction')"
-          ></div>
+          <div class="text-center">
+            <!-- eslint-disable-next-line vue/no-v-html -->
+            <div v-html="$t('pollingStationSearch.callToAction')"></div>
+          </div>
           <PollingStationSearch />
           <p class="text-center mt-4">
             {{ $t('temp_text') }}
