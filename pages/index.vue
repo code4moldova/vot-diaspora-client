@@ -26,3 +26,14 @@
     </div>
   </div>
 </template>
+
+<script>
+import VotersGuide from '../components/VotersGuide'
+import PollingStationSearch from '../components/PollingStationSearch'
+export default {
+  components: {
+    VotersGuide,
+    PollingStationSearch,
+  },
+}
+</script>
