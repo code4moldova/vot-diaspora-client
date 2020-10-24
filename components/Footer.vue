@@ -148,6 +148,19 @@
             Organizație neguvernamentală independentă, neafiliată politic și
             apolitică.
           </p>
+
+          <div class="vercel-credits">
+            <div>
+              {{ $t('sponsors.powered_by') }}
+              <a
+                href="https://vercel.com/?utm_source=vot-diaspora-client&utm_campaign=oss"
+                target="_blank"
+              >
+                Vercel
+                <img alt="Vercel" title="Vercel" src="../assets/vercel.svg" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -158,6 +171,7 @@
 footer {
   font-size: 0.9rem;
 }
+
 footer a {
   color: #fff;
 }
@@ -165,6 +179,12 @@ footer a {
 .social-link-item {
   img {
     border-radius: 5px;
+  }
+}
+
+.vercel-credits {
+  img {
+    vertical-align: text-top;
   }
 }
 </style>
