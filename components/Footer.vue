@@ -77,7 +77,7 @@
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://votdiaspora.ro/"
+                  href="https://github.com/code4moldova/vot-diaspora-client/"
                 >
                   Vot Diaspora
                 </a>
@@ -115,7 +115,7 @@
                   rel="noopener noreferrer"
                   href="https://code4.md/"
                 >
-                  Code for Moldovia
+                  Code for Moldova
                 </a>
               </li>
               <li>
@@ -185,4 +185,3 @@ footer a {
   }
 }
 </style>
-© 2020 GitHub, Inc.
