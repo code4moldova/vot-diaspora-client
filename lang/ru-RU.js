@@ -1,16 +1,16 @@
 export default {
   donate: 'Donează',
-  nav_about: 'Despre',
+  nav_about: 'О нас',
   guide_title: 'Selectează din opțiunile de mai jos ce ți se potrivește',
   votersGuide: {
     callToAction: 'Începe prin a alege una din opțiunile de mai jos',
     textHeader:
-      '<p>La alegerile prezidențiale își exercită dreptul de vot în afara țării doar cetățenii moldoveni cu domiciliul sau reședința în străinătate. Află ce ai de făcut pentru a putea vota în țara în care ai domiciliu sau reședința la alegerile din 1 noiembrie 2020.</p><h3>ATENȚIE!</h3><p><strong>Pentru a vota în străinătate, aveți nevoie de următoarele acte:</strong></p><ul><li>Pașaportul cetățeanului Republicii Moldova, inclusiv cu termenul de valabilitate expirat,</li> <li>Buletinul de identitate (valabil) cu fișa de însoțire,</li> <li>Livretul de marinar.</li></ul> Votarea va avea loc în intervalul orelor 07.00 – 21.00 (ora locală a fiecărei secții de votare).</p><p>Asigură-te că ai cu tine un pix și o mască de protecție. Fiecare secție de votare va fi dezinfectată la un interval de fiecare 2-3 ore. În fiecare local al secției de votare numărul alegătorilor care vor avea acces în același timp va fi egal cu numărul cabinelor de vot instalate!</p>',
+      '<p>На президентских выборах только граждане Молдовы, проживающие или зарегистрированы за границей, реализуют свое право голоса за границей. Узнайте, что вам нужно сделать, чтобы проголосовать в стране вашего проживания на выборах 1 ноября 2020 года.</p><h3>Важно!</h3><p><strong>Для голосования за границей необходимы следующие документы:</strong></p><ul><li>Паспорт гражданина Республики Молдова, в том числе с истекшим сроком действия,</li> <li>Удостоверение личности (действительное) с сопроводительной картой</li> <li>Kнижка моряка.</li></ul>Голосование будет проходить с 07.00 до 21.00 (по местному времени каждого избирательного участка).</p><p>Убедитесь, что у вас есть ручка и маска для лица. Каждый избирательный участок будет дезинфицироваться каждые 2-3 часа. На каждом избирательном участке количество избирателей, которые будут иметь доступ одновременно, будет равно количеству установленных кабин для голосования!</p>',
   },
   pollingStationSearch: {
-    question: 'Unde stai?',
+    question: 'Где ты живешь?',
     callToAction:
-      'Caută orașul în care locuiești pentru a afla care sunt cele mai apropiate secții de votare.',
+      'Найдите в городе, где вы живете, ближайшие избирательные участки.',
     searchPlaceholder:
       'Caută adresa ta pentru a afla la ce secție ești arondat',
     addressNotFound:
@@ -19,10 +19,10 @@ export default {
     error: 'Ne pare rau, a aparut o eroare.',
   },
   pollingStationCard: {
-    distance: 'Distanța:',
-    seeStreets: 'Vezi pe harta',
+    distance: 'Расстояние:',
+    seeStreets: 'Список адресов',
     pollingStationNumber: 'Secția de votare Nr.',
-    address: 'Adresa:',
+    address: 'Адрес:',
     assignedStreetsLabel:
       'La această secție pot vota persoanele care locuiesc pe următoarele străzi:',
   },
@@ -39,15 +39,15 @@ export default {
     case3_text:
       'Dacă ești un cetățean cu dizabilități și te prezinți în secție și nu poți semna pe lista electorală din motive de invaliditate sau nu poți aplica ștampila pe buletin și președintele secției de votare constată acest lucru, poți fi însoțit în cabină de un însoțitor pe care îl alegi tu și care nu este din rândul persoanelor acreditate, al membrilor biroului electoral al secţiei de votare sau al candidaţilor.',
   },
-  back_button: 'Înapoi',
-  back_to_start_button: 'Înapoi la început',
+  back_button: 'Назад',
+  back_to_start_button: 'Вернуться в начало',
   introduction:
-    'Pe data de 1 noiembrie 2020 au loc alegerile prezidențiale din Republica Moldova. Cetățenii moldoveni cu drept de vot, care au domiciliul sau reședința în străinătate, pot vota la secție. Pentru a afla care sunt pașii pe care trebuie să-i parcurgeți pentru a vota în cadrul acestui tur electoral, consultați ghidul de mai jos.',
+    '1 ноября 2020 состоятся выборы президента Республики Молдова. Граждане Молдовы с правом голоса, проживающие за границей, могут голосовать на избирательном участке.Чтобы узнать, какие шаги необходимо предпринять, чтобы проголосовать в этом раунде выборов, ознакомьтесь с гидом ниже.',
   about: {
-    title: 'Despre',
-    text: `<p>Pe data de 1 noiembrie 2020 au loc alegerile prezidențiale din Republica Moldova. Cetățenii moldoveni cu drept de vot care au domiciliul sau reședința în străinătate pot vota la secție. Pentru a afla care sunt pașii pe care trebuie să-i parcurgeți pentru a putea alege în cadrul acestui tur electoral, consultați ghidul de mai jos.</p><h3>Despre proiect</h3><p>Vot Diaspora este o platformă care simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor prezidențiale, care vor avea loc pe 1 noiembrie 2020. Vot Diaspora este un proiect elaborat de Code for Moldova, pentru a facilita accesul cetățenilor moldoveni de peste hotare la informație și a ajuta la o mai mare transparență a procesului electoral.</p><p>Accesând votdiaspora.md, toți cetățenii vor putea să verifice, alături de documentele și procedurile necesare pentru a vota la secție dacă se află în afara țării. Website-ul va fi disponibil cu informații actualizate la fiecare scrutin electoral.</p><p>Vot Diaspora face parte din ecosistemul electoral dezvoltat de voluntarii Code for Moldova. Aplicația este preluată de la Code For Romania pro bono în cadrul Civic Labs, unul dintre programele prin care asociația proiectează soluții de tehnologie civică pentru problemele țării.W</p>`,
-    p1: 'Dezvoltată de:',
-    p2: 'În parteneriat cu:',
+    title: 'О Проекте',
+    text: `<p>Vot Diaspora - это платформа, которая помогает гражданам, находящимся за рубежом, в поиске информации по поводу избирательного процесса - президентских выборов, которые состоятся 1 ноября 2020 года. Vot Diaspora - это проект, разработанный организацией Code For Moldova, призванный облегчить доступ граждан Молдовы за рубежом к информации и обеспечить большую прозрачность избирательного процесса.</p><p>Зайдя на <a href="https://votdiaspora.md">votdiaspora.md</a>, все граждане смогут проверить адреса избирательных центров, наряду с документами и процедурами, необходимыми для голосования на избирательном участке, в случае нахождения за пределами страны. Веб-сайт будет предоставлять обновленную информацию по каждому избирательному циклу. Vot Diaspora является частью избирательной экосистемы, разработанной волонтерами Code For Moldova. Концепция приложения была заимствована y Code For Romania, в рамках Civic Labs, одной из программ, в рамках которых ассоциация разрабатывает технологические решения для решения проблем страны и ее граждан.</p><p>Code for Moldova - это некоммерческая организация, которая на общественных началах разрабатывает цифровые решения для решения социальных проблем. Code For Moldova теперь достигла сообщества, состоящего из более чем 90 добровольцев из ИТ-сектора, которые разработали веб-приложения для Молдовы, например, из экосистемы <a href="https://voluntar.md">voluntar.md</a> и <a href="https://info.c19.md">info.c19.md</a>.</p>`,
+    p1: 'Разработаной командой:',
+    p2: 'При партнёрстве:',
   },
   info_text:
     'Pe 6 decembrie au loc alegeri prezidențiale în Republica Moldova. Cetățenii care locuiesc în diaspora sau se află în diaspora în tranzit în momentul alegerilor nu pot să își exprime votul, acest lucru fiind posibil doar pentru cetățenii care se află pe teritoriul României în aria circumscripției la care este arondată adresa lor de domiciliu. Dacă ai rude în țară, atunci încurajează-i să folosească Vot România pentru a afla în ce condiții pot să voteze, de ce documente au nevoie și unde se află secția la care sunt arondați.',
@@ -58,9 +58,9 @@ export default {
   temp_text:
     ' Harta secțiilor de votare disponibilă la acest moment este harta secțiilor organizate pentru alegerile prezidențiale din 2020. Vom actualiza lista secțiilor imediat ce aceasta devine disponibilă. Data până la care Autoritatea Electorală Permanentă trebuie să transmită către Ministerul Afacerilor externe lista localităților din străinătate unde trebuie să fie înființate secții de votare este 25 septembrie 2020.',
   social_share: {
-    title: 'Informează-ți prietenii',
+    title: 'Сообщите своим друзьям!',
     text:
-      'Distribuie aceste informații în social media pentru a ajuta cât mai mulți moldoveni să afle unde pot vota la alegerile prezidențiale din 2020, de ce documente au nevoie și alte sfaturi utile.',
+      'Поделитесь этой информацией в социальных сетях, чтобы помочь как можно большему количеству молдаван узнать, где они могут проголосовать на президентских выборах 2020 года, какие документы им нужны и другие полезные советы.',
   },
   donate_card: {
     title: 'Susține-ne',
@@ -128,6 +128,6 @@ export default {
     </p>`,
   },
   sponsors: {
-    powered_by: 'Cu sprijinul',
+    powered_by: 'При поддержке',
   },
 }

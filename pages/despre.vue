@@ -5,19 +5,21 @@
 
     <hr />
     <div class="row text-center my-5">
-      <div class="col">
+      <div class="col-md-4">
         <p>{{ $t('about.p1') }}</p>
-        <img src="../assets/civic_labs.svg" alt="Civic Labs" />
+        <img src="../assets/logo_code4md.svg" alt="Code4Moldova" />
       </div>
-      <div class="col">
+      <div class="col-md-4">
         <p>{{ $t('about.p2') }}</p>
         <img src="../assets/code4Romania.svg" alt="Code4Romania" />
-      </div>
-      <div class="col">
-        <p>{{ $t('about.p3') }}</p>
-        <img src="../assets/observator.png" alt="Observator" />
       </div>
     </div>
     <hr />
   </div>
 </template>
+
+<script>
+export default {
+  name: 'About',
+}
+</script>

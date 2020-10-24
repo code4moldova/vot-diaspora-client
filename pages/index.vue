@@ -28,9 +28,10 @@
 </template>
 
 <script>
-import VotersGuide from '../components/VotersGuide'
-import PollingStationSearch from '../components/PollingStationSearch'
+import VotersGuide from '~/components/VotersGuide'
+import PollingStationSearch from '~/components/PollingStationSearch'
 export default {
+  name: 'Home',
   components: {
     VotersGuide,
     PollingStationSearch,

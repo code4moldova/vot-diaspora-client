@@ -4,3 +4,9 @@
     <div v-html="$t('cookie.text')"></div>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'CookiePolicy',
+}
+</script>

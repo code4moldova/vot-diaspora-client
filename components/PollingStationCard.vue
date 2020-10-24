@@ -7,12 +7,12 @@
     <div class="card-body">
       <div class="d-flex justify-content-between align-items-center">
         <p class="m-0">
-          <span class="bg-dark text-white px-1 mr-1">{{
+          <span class="mr-1 font-weight-bold">{{
             $t('pollingStationCard.address')
           }}</span>
           {{ address }}
         </p>
-        <button class="btn btn-sm btn-dark" @click="showStreet = !showStreet">
+        <button class="btn btn-sm btn-dark" @click="openSection">
           {{ $t('pollingStationCard.seeStreets') }}
         </button>
       </div>
@@ -47,5 +47,19 @@ export default {
       showStreet: false,
     }
   },
+  methods: {
+    openSection() {
+      this.showStreet = !this.showStreet
+      if (process.client) {
+        document.getElementById('mapContainer').scrollIntoView()
+      }
+    },
+  },
 }
 </script>
+
+<style scoped>
+.btn {
+  white-space: nowrap;
+}
+</style>
