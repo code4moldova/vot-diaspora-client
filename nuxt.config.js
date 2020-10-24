@@ -88,7 +88,7 @@ export default {
    */
   modules: ['nuxt-i18n', '@nuxtjs/gtm'],
   gtm: {
-    id: 'G-L8W93HP5VY',
+    id: 'GTM-WXQGKML',
   },
   i18n: {
     detectBrowserLanguage: false,
