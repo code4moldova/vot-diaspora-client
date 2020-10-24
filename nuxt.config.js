@@ -21,16 +21,16 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Vot Diaspora este o platformă dezvoltată de Code for Romania care oferă rapid românilor din Diaspora informații despre cum pot vota la alegerile generale din decembrie 2020.',
+          'Vot Diaspora este o platformă dezvoltată de Code for Romania care oferă rapid românilor din Diaspora informații despre cum pot vota la alegerile generale din Noiembrie 2020.',
       },
-      { property: 'og:title', content: 'Vot România' },
+      { property: 'og:title', content: 'Vot Moldova' },
       {
         property: 'og:image',
-        content: 'https://votdiaspora.ro/static/social/og_image.png',
+        content: '~/assets/votdiaspora_logo_1.svg',
       },
       {
         name: 'theme-color',
-        content: '#352245',
+        content: '#0A2758',
       },
       {
         property: 'og:description',
@@ -82,17 +82,14 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'UA-142048447-2',
-      },
-    ],
   ],
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-i18n'],
+  modules: ['nuxt-i18n', '@nuxtjs/gtm'],
+  gtm: {
+    id: 'G-L8W93HP5VY',
+  },
   i18n: {
     detectBrowserLanguage: false,
     locales: [
