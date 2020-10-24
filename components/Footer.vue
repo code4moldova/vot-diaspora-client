@@ -4,7 +4,7 @@
       <div class="container">
         <a
           class="social-link-item mx-1"
-          href="https://www.facebook.com/code4romania"
+          href="https://www.facebook.com/codeformoldova"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -18,7 +18,7 @@
         </a>
         <a
           class="social-link-item mx-1"
-          href="https://www.instagram.com/code4romania"
+          href="https://www.instagram.com/code4md"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -32,7 +32,7 @@
         </a>
         <a
           class="social-link-item mx-1"
-          href="https://www.linkedin.com/company/code4romania"
+          href="https://www.linkedin.com/company/code4moldova"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -46,7 +46,7 @@
         </a>
         <a
           class="social-link-item mx-1"
-          href="https://twitter.com/Code4Romania"
+          href="https://twitter.com/Code4Moldova"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -54,13 +54,13 @@
             src="../assets/social/twitter.svg"
             width="45"
             height="45"
-            alt="Code4Ro Twitter"
+            alt="Code4MD Twitter"
             class="p-2 bg-secondary"
           />
         </a>
         <a
           class="btn btn-lg btn-success text-white ml-1"
-          href="https://code4.ro/ro/doneaza/"
+          href="https://code4.md/donate/"
           target="_blank"
           rel="noopener noreferrer"
           >{{ $t('donate') }}</a
@@ -79,34 +79,7 @@
                   rel="noopener noreferrer"
                   href="https://github.com/code4moldova/vot-diaspora-client/"
                 >
-                  Vot Diaspora
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://votromania.ro/"
-                >
-                  Vot Romania
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://votemonitor.org/"
-                >
-                  Monitorizare Vot
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://rezultatevot.ro/"
-                >
-                  Rezultate Vot
+                  Vot Diaspora Github
                 </a>
               </li>
               <li>
@@ -116,24 +89,6 @@
                   href="https://code4.md/"
                 >
                   Code for Moldova
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://code4.ro/ro/"
-                >
-                  Code for Romania
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://civiclabs.ro/"
-                >
-                  Civic Labs
                 </a>
               </li>
             </ul>
@@ -146,22 +101,14 @@
                 >Politica de cookies</nuxt-link
               >
             </li>
-            <li>
-              <a
-                href="http://bit.ly/2q06tSu"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Abonează-te la newsletter</a
-              >
-            </li>
           </ul>
           <nuxt-link :to="localePath('index')"
             ><img
-              alt="Code4ro"
-              src="../assets/code4RoGrey.svg"
+              alt="Code4md"
+              src="../assets/logo_code4md.svg"
               class="mt-3 mb-2" /></nuxt-link
           ><br />
-          <span>&copy; 2020 Code for Romania.</span>
+          <span>&copy; 2020 Code for Moldova.</span>
           <p>
             Organizație neguvernamentală independentă, neafiliată politic și
             apolitică.
