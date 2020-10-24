@@ -73,6 +73,15 @@
           <h3 class="link-title h5">Ecosistem Alegeri</h3>
           <nav>
             <ul class="list-unstyled">
+            <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/code4moldova/vot-diaspora-client/"
+                >
+                  Vot Diaspora
+                </a>
+              </li>
               <li>
                 <a
                   target="_blank"
@@ -98,6 +107,15 @@
                   href="https://rezultatevot.ro/"
                 >
                   Rezultate Vot
+                </a>
+              </li>
+               <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://code4.md/"
+                >
+                  Code for Moldova
                 </a>
               </li>
               <li>
@@ -135,7 +153,7 @@
                 rel="noopener noreferrer"
                 >Abonează-te la newsletter</a
               >
-            </li>
+           </li>
           </ul>
           <nuxt-link :to="localePath('index')"
             ><img
@@ -175,7 +193,6 @@ footer {
 footer a {
   color: #fff;
 }
-
 .social-link-item {
   img {
     border-radius: 5px;
