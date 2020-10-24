@@ -73,10 +73,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .dropdown-menu {
-//   &.small {
-//     min-width: 0;
-//   }
-// }
-//
+a {
+  white-space: nowrap;
+}
 </style>
