@@ -175,4 +175,7 @@ export default {
         <p>A harmadik felek által létrehozott sütik beállításaihoz és az online hirdetésekkel kapcsolatos adatvédelemről az IAB Romania a következő webhelyet biztosítja: http://www.youronlinechoices.com/ro/</p>
     `,
   },
+  sponsors: {
+    powered_by: 'Powered by',
+  },
 }

@@ -77,6 +77,15 @@
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  href="https://github.com/code4moldova/vot-diaspora-client/"
+                >
+                  Vot Diaspora
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href="https://votromania.ro/"
                 >
                   Vot Romania
@@ -98,6 +107,15 @@
                   href="https://rezultatevot.ro/"
                 >
                   Rezultate Vot
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://code4.md/"
+                >
+                  Code for Moldova
                 </a>
               </li>
               <li>
@@ -148,6 +166,19 @@
             Organizație neguvernamentală independentă, neafiliată politic și
             apolitică.
           </p>
+
+          <div class="vercel-credits">
+            <div>
+              {{ $t('sponsors.powered_by') }}
+              <a
+                href="https://vercel.com/?utm_source=vot-diaspora-client&utm_campaign=oss"
+                target="_blank"
+              >
+                Vercel
+                <img alt="Vercel" title="Vercel" src="../assets/vercel.svg" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -158,13 +189,19 @@
 footer {
   font-size: 0.9rem;
 }
+
 footer a {
   color: #fff;
 }
-
 .social-link-item {
   img {
     border-radius: 5px;
+  }
+}
+
+.vercel-credits {
+  img {
+    vertical-align: text-top;
   }
 }
 </style>

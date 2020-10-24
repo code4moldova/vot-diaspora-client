@@ -51,7 +51,7 @@ $ npm generate
 
 ## Deployment
 
-Github integration with [Vercel](https://vercel.com)
+Github integration with [Vercel](https://vercel.com/?utm_source=_vot-diaspora-client_&utm_campaign=oss)
 
 ## Feedback
 
