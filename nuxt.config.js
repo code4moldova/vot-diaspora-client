@@ -97,26 +97,21 @@ export default {
     detectBrowserLanguage: false,
     locales: [
       {
-        code: 'en',
-        name: 'EN',
-        file: 'en-US.js',
-      },
-      {
-        code: 'hu',
-        name: 'HU',
-        file: 'hu-HU.js',
-      },
-      {
         code: 'ro',
         name: 'RO',
         file: 'ro-RO.js',
+      },
+      {
+        code: 'ru',
+        name: 'RU',
+        file: 'ru-RU.js',
       },
     ],
     lazy: true,
     langDir: 'lang/',
     defaultLocale: 'ro',
     vueI18n: {
-      fallbackLocale: 'en',
+      fallbackLocale: 'ro',
     },
   },
   /*
