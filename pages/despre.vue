@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1 class="mt-5 mb-4">{{ $t('about.title') }}</h1>
+    <!-- eslint-disable-next-line vue/no-v-html -->
     <div v-html="$t('about.text')"></div>
 
     <hr />
