@@ -27,5 +27,3 @@ export default {
   name: 'About',
 }
 </script>
-
-<style lang="sass"></style>
