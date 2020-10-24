@@ -1,7 +1,7 @@
 export default {
   env: {
     NUXT_ENV_API_URL:
-      process.env.NUXT_ENV_API_URL || 'https://api.votdiaspora.ro/api',
+      process.env.NUXT_ENV_API_URL || 'http://185.181.229.182:4000/api',
   },
   /*
    ** Nuxt target
