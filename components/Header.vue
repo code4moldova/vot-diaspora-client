@@ -15,9 +15,9 @@
           <small>by</small>
           <img
             class="navbar-brand"
-            src="../assets/code4Romania.svg"
+            src="../assets/logo_code4md.svg"
             width="100"
-            alt="Code4Ro"
+            alt="Code4MD"
           /></div
       ></nuxt-link>
       <div class="d-flex align-items-center mx-auto mr-sm-0 mt-5 mt-sm-0">
@@ -28,7 +28,7 @@
           {{ $t('nav_about') }}
         </nuxt-link>
         <a
-          href="https://code4.ro/ro/doneaza"
+          href="https://code4.md/donate"
           class="btn btn-success text-white font-weight-bold ml-2 ml-sm-4"
         >
           {{ $t('donate') }}
