@@ -165,4 +165,7 @@ export default {
     <p>For third-party cookies settings and for more information about online ad confidentiality, IAB Romania offers the following website: <a href="http://www.youronlinechoices.com/en/">http://www.youronlinechoices.com/en/</a></p>
     `,
   },
+  sponsors: {
+    powered_by: 'Powered by',
+  },
 }
