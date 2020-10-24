@@ -30,7 +30,7 @@ export default {
       },
       {
         name: 'theme-color',
-        content: '#352245',
+        content: '#0A2758',
       },
       {
         property: 'og:description',
@@ -82,17 +82,14 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'G-L8W93HP5VY',
-      },
-    ],
   ],
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-i18n'],
+  modules: ['nuxt-i18n', '@nuxtjs/gtm'],
+  gtm: {
+    id: 'G-L8W93HP5VY',
+  },
   i18n: {
     detectBrowserLanguage: false,
     locales: [
