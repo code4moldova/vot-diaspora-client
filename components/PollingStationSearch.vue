@@ -76,10 +76,12 @@ import VueTypeaheadBootstrap from 'vue-typeahead-bootstrap'
 import houseMarker from '../assets/house_marker.svg'
 import pollingStationMarker from '../assets/polling_station_marker.svg'
 import { PollingStationMatcherService } from '../service/polling-station-matcher.service'
+import PollingStationCard from '~/components/PollingStationCard'
 
 export default {
   components: {
     VueTypeaheadBootstrap,
+    PollingStationCard,
   },
 
   data() {
