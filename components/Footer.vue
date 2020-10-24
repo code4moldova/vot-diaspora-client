@@ -73,7 +73,7 @@
           <h3 class="link-title h5">Ecosistem Alegeri</h3>
           <nav>
             <ul class="list-unstyled">
-            <li>
+              <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -109,7 +109,7 @@
                   Rezultate Vot
                 </a>
               </li>
-               <li>
+              <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -153,7 +153,7 @@
                 rel="noopener noreferrer"
                 >Abonează-te la newsletter</a
               >
-           </li>
+            </li>
           </ul>
           <nuxt-link :to="localePath('index')"
             ><img
