@@ -65,7 +65,7 @@ export default {
   donate_card: {
     title: 'Susține-ne',
     text:
-      'Vot Diaspora este un proiect dezvoltat pro-bono de o echipă de voluntari Code for Moldova. În fiecare zi, sute dintre prietenii si colegii tăi lucrează pentru a construi intrumente digitale utile pentru a ne face viața mai ușoară și pentru a aduce România mai aproape de progresul tehnologic. Ajută-ne să continuăm.',
+      'Vot Diaspora este un proiect dezvoltat pro-bono de o echipă de voluntari Code for Moldova. În fiecare zi, sute dintre prietenii si colegii tăi lucrează pentru a construi intrumente digitale utile pentru a ne face viața mai ușoară și pentru a aduce Republica Moldova mai aproape de progresul tehnologic. Ajută-ne să continuăm.',
   },
   cookie: {
     title: 'Politica de cookies',
