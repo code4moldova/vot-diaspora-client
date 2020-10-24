@@ -46,8 +46,9 @@ export default {
   about: {
     title: 'Despre',
     text: `<p>Pe data de 1 noiembrie 2020 au loc alegerile prezidențiale din Republica Moldova. Cetățenii moldoveni cu drept de vot care au domiciliul sau reședința în străinătate pot vota la secție. Pentru a afla care sunt pașii pe care trebuie să-i parcurgeți pentru a putea alege în cadrul acestui tur electoral, consultați ghidul de mai jos.</p><h3>Despre proiect</h3><p>Vot Diaspora este o platformă care simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor prezidențiale, care vor avea loc pe 1 noiembrie 2020. Vot Diaspora este un proiect elaborat de Code for Moldova, pentru a facilita accesul cetățenilor moldoveni de peste hotare la informație și a ajuta la o mai mare transparență a procesului electoral.</p><p>Accesând votdiaspora.md, toți cetățenii vor putea să verifice, alături de documentele și procedurile necesare pentru a vota la secție dacă se află în afara țării. Website-ul va fi disponibil cu informații actualizate la fiecare scrutin electoral.</p><p>Vot Diaspora face parte din ecosistemul electoral dezvoltat de voluntarii Code for Moldova. Aplicația este preluată de la Code For Romania pro bono în cadrul Civic Labs, unul dintre programele prin care asociația proiectează soluții de tehnologie civică pentru problemele țării.W</p>`,
-    p1: 'Soluție implementată:',
-    p2: 'Elaborată de:',
+    p1: 'Dezvoltată de:',
+    p2: 'În parteneriat cu:',
+    p3: 'Susținut de:',
   },
   info_text:
     'Pe 6 decembrie au loc alegeri prezidențiale în Republica Moldova. Cetățenii care locuiesc în diaspora sau se află în diaspora în tranzit în momentul alegerilor nu pot să își exprime votul, acest lucru fiind posibil doar pentru cetățenii care se află pe teritoriul României în aria circumscripției la care este arondată adresa lor de domiciliu. Dacă ai rude în țară, atunci încurajează-i să folosească Vot România pentru a afla în ce condiții pot să voteze, de ce documente au nevoie și unde se află secția la care sunt arondați.',
