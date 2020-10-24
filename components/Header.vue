@@ -8,16 +8,16 @@
         class="text-dark d-flex flex-column flex-sm-row align-items-center"
         ><img
           class="navbar-brand mr-2"
-          src="../assets/logo_horizontal.svg"
+          src="~/assets/logo_horizontal.svg"
           height="60"
           alt="Vot Diaspora" />
         <div class="mt-2">
           <small>by</small>
           <img
             class="navbar-brand"
-            src="../assets/code4Romania.svg"
+            src="~/assets/logo_code4md.svg"
             width="100"
-            alt="Code4Ro"
+            alt="Code4MD"
           /></div
       ></nuxt-link>
       <div class="d-flex align-items-center mx-auto mr-sm-0 mt-5 mt-sm-0">
