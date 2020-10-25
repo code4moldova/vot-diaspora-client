@@ -55,7 +55,7 @@
           </p>
           <a
             class="btn btn-lg btn-success text-white"
-            href="https://code4.md/doneaza/"
+            href="https://code4.md/donate/"
             target="_blank"
             rel="noopener noreferrer"
             >{{ $t('donate') }}</a
