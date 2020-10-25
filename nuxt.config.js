@@ -45,7 +45,7 @@ export default {
         rel: 'stylesheet',
         href: 'https://js.api.here.com/v3/3.1/mapsjs-ui.css',
       },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.jpg' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon_md.png' },
     ],
     script: [
       {
