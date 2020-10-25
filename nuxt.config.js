@@ -1,7 +1,7 @@
 export default {
   env: {
     NUXT_ENV_API_URL:
-      process.env.NUXT_ENV_API_URL || 'http://185.181.229.182:4000/api',
+      process.env.NUXT_ENV_API_URL || 'https://dev.voluntar.md/diaspora',
   },
   /*
    ** Nuxt target
@@ -26,7 +26,7 @@ export default {
       { property: 'og:title', content: 'Vot Diaspora Republica Moldova' },
       {
         property: 'og:image',
-        content: 'https://votdiaspora.md/static/social/og_image.png',
+        content: 'https://votdiaspora.md/static/social/logov4.png',
       },
       {
         name: 'theme-color',
