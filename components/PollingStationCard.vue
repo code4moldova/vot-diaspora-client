@@ -10,7 +10,7 @@
           <span class="mr-1 font-weight-bold">{{
             $t('pollingStationCard.address')
           }}</span>
-          {{ address }}
+          {{ address }}, {{ locality }}
         </p>
         <button class="btn btn-sm btn-dark" @click="openSection">
           {{ $t('pollingStationCard.seeStreets') }}
@@ -41,6 +41,7 @@ export default {
     address: { type: String, default: '' },
     distance: { type: Number, default: 0 },
     assignedAddresses: { type: Array, default: () => [] },
+    locality: { type: String, default: '' },
   },
   data() {
     return {

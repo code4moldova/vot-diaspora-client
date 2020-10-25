@@ -57,6 +57,7 @@
             :address="pollingStation.address"
             :distance="pollingStation.distance"
             :assigned-addresses="pollingStation.assignedAddresses"
+            :locality="pollingStation.locality"
           />
         </div>
       </div>
