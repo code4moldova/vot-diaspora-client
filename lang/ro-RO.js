@@ -60,7 +60,7 @@ export default {
   target="_blank"
   rel="noopener noreferrer">donație oricât de mică</a> pentru Code for Moldova care a dezvoltat acest site complet pro bono.</p>`,
   temp_text:
-    ' Harta secțiilor de votare disponibilă la acest moment este harta secțiilor organizate pentru alegerile prezidențiale din 2020. Vom actualiza lista secțiilor imediat ce aceasta devine disponibilă. Data până la care Autoritatea Electorală Permanentă trebuie să transmită către Ministerul Afacerilor externe lista localităților din străinătate unde trebuie să fie înființate secții de votare este 25 septembrie 2020.',
+    ' Harta secțiilor de votare disponibilă la acest moment este harta secțiilor organizate pentru alegerile prezidențiale din 2020.',
   social_share: {
     title: 'Informează-ți prietenii',
     text:
