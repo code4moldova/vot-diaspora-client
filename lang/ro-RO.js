@@ -56,7 +56,7 @@ export default {
   target="_blank"
   rel="noopener noreferrer">donație oricât de mică</a> pentru Code for Moldova care a dezvoltat acest site complet pro bono.</p>`,
   temp_text:
-    ' Harta secțiilor de votare disponibilă la acest moment este harta secțiilor organizate pentru alegerile prezidențiale din 2020. Vom actualiza lista secțiilor imediat ce aceasta devine disponibilă. Data până la care Autoritatea Electorală Permanentă trebuie să transmită către Ministerul Afacerilor externe lista localităților din străinătate unde trebuie să fie înființate secții de votare este 25 septembrie 2020.',
+    ' Harta secțiilor de votare disponibilă la acest moment este harta secțiilor organizate pentru alegerile prezidențiale din 2020.',
   social_share: {
     title: 'Informează-ți prietenii',
     text:
@@ -69,63 +69,137 @@ export default {
   },
   cookie: {
     title: 'Politica de cookies',
-    text: `<p>Acest website foloseste cookie-uri pentru a furniza vizitatorilor o experienta mult mai buna de navigare si servicii adaptate nevoilor si interesului fiecaruia</p>
-    <p>Cookie-urile au rolul de a facilita accesul si livrarea serviciilor folosite de utilizator de internet, cum ar fi personalizarea anumitor setari (limba, tara, preturi afisante in moneda nationala. Cookie-urile, pe baza informatiilor pe care le aduna despre utilizatori, ii ajuta pe detinatorii de site-uri sa isi eficientizeze produsul astfel incat acesta sa fie cat mai usor accesat de catre utilizatori, de asemenea cresc gradul de eficienta a publicitatii online si nu in ultimul rand pot permite aplicatiilor multimedia sau de alt tip de pe alte site-uri sa fie incluse intr-un anumit site pentru a face navigarea mai utila.</p>
-    <h2>Ce este un cookie?</h2>
-    <p>Cookie (browser cookie sau HTTP cookie) este un fisier de mici dimensiuni, format din litere si numere, care este stocat pe orice terminal cu acces la intrenet (computer, telefon mobil, tableta etc.) si este instalat prin solicitara emisa de catre un web-server unui browser (ex: Internet Explorer, Chrome). De retinut: Cookie-urile nu contin programe software, virusi sau spyware si nu pot accesa informatiile de pe hard drive-ul utilizatorului.</p>
-    <p>Un cookie este format din nume si continut, durata de existenta a acestuia fiind determinata, putand fi accesat din nou de webserver in momentul in care un utilizator se intoarce pe website-ul asociat webserverului respectiv.</p>
-    <p>Cookie-urile nu solicita informatii cu caracter personal si nu identifica personal utilizatorii de internet.</p>
-    <p>Cookieuri de sesiune - acestea sunt stocate temporat in istoricul browser-ului care le memoreaza pana cand utilizatorul iese de pe web-siteul respectiv sau inchide fereastra browserului.</p>
-    <p>Cookieuri Persistente - Acestea sunt stocate, in functie de durata prestabilita, pe hard-drive-ul unui computer sau echipament. Cookie-urile persistente le includ si pe cele plasate de un alt website decat cel pe care il viziteaza utilizatorul la momentul respectiv - cunoscute sub numele de third party cookies - care pot fi folosite in mod anonim pentru a memora interesele unui utilizator, astfel incat sa fie livrata publicitate cat mai relevanta pentru utilizatori.</p>
-    <h2>Care sunt avantajele cookie-urilor?</h2>
-    <p>Un cookie contine informatii care fac legatura intre utilizatori si un anume website. Daca un browser acceseaza acel web-server din nou, acesta poate citi informatia deja stocata si reactiona in consecinta.</p>
-    <h2>Care este durata de viata a unui cookie?</h2>
-    <p>Exista cookie-uri folosite exclusiv pentru o singura sesiune - acestea nu mai sunt retinute dupa ce utilizatorul iese de pe website. Cookie-uri permanente - sunt retinute si refolosite de fiecare data cand utilizatorul revine pe acel website, insa pot fi sterse oricand de utilizator.</p>
-    <h2>Ce sunt cookie-urile plasate de terti?</h2>
-    <p>Parti de continut sau servicii pot fi plasate pe website-ul accesat, de catre terte parti prin intermediul bannerelor, boxurilor sau linkurilor - iar toate aceste instrumente pot contine cookie-uri. Ele se numesc third party cookies pentru ca nu sunt plasate de proprietarul website-ului respectiv, iar furnizorii terti se supun legilor in vigoare si politicilor de confidentialitate ale detinatorului site-ului.</p>
-    <h2>Cum sunt folosite cookie-urile de catre acest site?</h2>
-    <p>O vizita pe acest site poate plasa cookie-uri in scopuri de:</p>
-    <ul>
-      <li>Cookie-uri folosite pentru finalizarea unei donatii</li>
-      <li>Cookie-uri de analiza a vizitatorilor</li>
-      <li>Cookie-uri de inregistrare</li>
-      <li>Unele cookie-uri pot proveni de la terti.</li>
-    </ul>
-    <h2>Cookie-uri folosite pentru finalizarea unei donatii'</h2>
-    <p>Completarea formularului de donatie cuprinde mai multi pasi. Pentru a tine evidenta unei persoane si pentru a-i oferi documentul necesar vom salva un fisier cookie ce ne ofera o metoda de a-l identifica (precum un numar de ordine). Pentru fiecare completare a formularului se va crea un cookie nou sau se va suprascrie cel deja existent.</p>
-    <h2>Cookie-uri pentru analiza vizitatorilor</h2>
-    <p>De fiecare data cand un utilizator viziteaza acest site softul de analytics furnizat de o terta parte genereaza un cookie de analiza a utilizatorului. Acest cookie ne spune daca ati mai vizitat acest site pana acum. Browser-ul ne va spune daca aveti acest cookie, iar daca nu, vom genera unul. Acesta permite monitorizarea utilizatorilor unici care ne viziteaza si cat de des o fac. Acest cookie nu poate fi folosit pentru a identifica persoanele fizice, ele sunt folosite doar in scop statistic.</p>
-    <h2>Cookie-uri pentru inregistrare</h2>
-    <p>Atunci cand va inregistrati pe acest site, generam un cookie cu datele de pe acesta. Cookie-ul ne ajuta in pasii urmatori pentru a comunica cu server-ul. Este posibil ca acesta sa ramana daca nu urmati toti pasii inregistrarii, dar el va fi rescris data urmatoare cand va veti inregistra din nou.</p>
-    <h2>Alte cookie-uri ale tertelor parti</h2>
-    <p>Pe unele pagini, tertii pot seta propriile cookie-uri anonime, in scopul de a urmari succesul unei aplicatii, sau pentru a customiza o aplicatie. Datorita modului de utilizare, acest site nu poate accesa aceste cookie-uri, la fel cum tertele parti nu pot accesa cookie-urile detinute de acest site. De exemplu, cand distribuiti o pagina folosind butonul pentru retelele sociale aflat pe acest site, acea retea sociala va inregistra activitatea dvs.</p>
-    <h2>Ce tip de informatii sunt stocate si accesate prin intermediul cookie-urilor?</h2>
-    <p>Cookie-urile pastreaza informatii intr-un fisier text de mici dimensiuni care permit unui website sa recunoasca un browser. Webserver-ul va recunoaste browserul pana cand cookie-ul expira sau este sters. Cookie-ul stocheaza informatii importante care imbunatatesc experienta de navigare pe Internet (ex: un numar de ordine pentru donatia ta).</p>
-    <h2>De ce sunt cookie-urile importante pentru Internet?</h2>
-    <p>Cookie-urile reprezinta punctul central al functionarii eficiente a Internetului, ajutand la generarea unei experiente de navigare prietenoase si adaptata preferintelor si intereselor fiecarui utilizator. Refuzarea sau dezactivarea cookieurilor poate face unele site-uri imposibil de folosit.</p>
-    <p>Refuzarea sau dezactivarea cookie-urilor nu inseamna ca nu veti mai primi publicitate online - ci doar ca aceasta nu va mai putea tine cont de preferintele si interesele dvs, evidentiate prin comportamentul de navigare.</p>
-    <h2>Securitate si probleme legate de confidentialitate</h2>
-    <p>Cookie-urile NU sunt virusi! Ele folosesc formate tip plain text. Nu sunt alcatuite din bucati de cod asa ca nu pot fi executate nici nu pot auto-rula. In consecinta, nu se pot duplica sau replica pe alte retele pentru a se rula sau replica din nou. Deoarece nu pot indeplini aceste functii, nu pot fi considerate virusi.</p>
-    <p>Cookie-urile pot fi totusi folosite pentru scopuri negative. Deoarece stocheaza informatii despre preferintele si istoricul de navigare al utilizatorilor, atat pe un anume site cat si pe mai multe alte siteuri, cookieurile pot fi folosite ca o forma de Spyware. Multe produse anti-spyware sunt constiente de acest fapt si in mod constant marcheaza cookie-urile pentru a fi sterse in cadrul procedurilor de stergere/scanare anti-virus/anti-spyware.</p>
-    <p>In general browserele au integrate setari de confidentialitate care furnizeaza diferite nivele de acceptare a cookieurilor, perioada de valabilitate si stergere automata dupa ce utilizatorul a vizitat un anumit site.</p>
-    <h2>Alte aspecte de securitate legate de cookie-uri</h2>
-    <p>Deoarece protectia identitatii este foarte valoroasa si reprezinta dreptul fiecarui utilizator de internet, este indicat sa se stie ce eventuale probleme pot crea cookieurile. Pentru ca prin intermediul lor se transmit in mod constant in ambele sensuri informatii intre browser si website, daca un atacator sau persoana neautorizata intervine in parcursul de transmitere a datelor, informatiile continute de cookie pot fi interceptate. Desi foarte rar, acest lucru se poate intampla daca browserul se conecteaza la server folosind o retea necriptata (ex: o retea WiFi nesecurizata).</p>
-    <p>Alte atacuri bazate pe cookie implica setari gresite ale cookieurilor pe servere. Daca un website nu solicita browserului sa foloseasca doar canale criptate, atacatorii pot folosi aceasta vulnerabilitate pentru a pacali browserele in a trimite informatii prin intermediul canalelor nesecurizate. Atacatorii utilizeaza apoi informatiile in scopuri de a accesa neautorizat anumite site-uri. Este foarte important sa fiti atenti in alegerea metodei celei mai potrivite de protectie a informatiilor personale.</p>
-    <h2>Sfaturi pentru o navigare sigura si responsabila, bazata pe cookies</h2>
-    <p>Datorita flexibilitatii lor si a faptului ca majoritatea dintre cele mai vizitate site-uri si cele mai mari folosesc cookieuri, acestea sunt aproape inevitabile. Dezactivarea cookie-urilor nu va permite accesul utilizatorului pe site-urile cele mai raspandite si utilizate printre care Youtube, Gmail, Yahoo si altele. Iata cateva sfaturi care va pot asigura ca navigati fara griji insa cu ajutorul cookie-urilor:</p>
-    <ul>
-      <li>Particularizati-va setarile browserului in ceea ce priveste cookie-urile pentru a reflecta un nivel confortabil pentru voi al securitatii utilizarii cookie-urilor. Daca nu va deranjeaza cookie-urile si sunteti singura persoana care utilizaeaza computerul, puteti seta termene lungi de expirare pentru stocarea istoricului de navigare si al datelor personale de acces. Daca impartiti accesul la calculator, puteti lua in considerare setarea browserului pentru a sterge datele individuale de navigare de fiecare data cand inchideti browserul. Aceasta este o varianta de a accesa site-urile care plaseaza cookie-uri si de a sterge orice informatie de vizitare la inchiderea sesiunii navigare.</li>
-      <li>Instalati-va si updatati-va constant aplicatii antispyware.</li>
-      <li>Multe dintre aplicatiile de detectare si prevenire a spyware-ului includ detectarea atacurilor pe site-uri. Astfel, impiedica browserul de la a accesa website-uri care ar putea sa exploateze vulnerabilitatile browserului sau sa descarce software periculos. Asigurati-va ca aveti browserul mereu updatat. Multe dintre atacurile bazate pe cookies se realizeaza exploatand punctele slabe ale versiunilor vechi ale browserelor.</li>
-      <li>Cookie-urile sunt pretutindeni si nu pot fi evitate daca doriti sa va bucurati de acces pe cele mai bune si cele mai mari site-uri de pe Internet - locale sau internationale. Cu o intelegere clara a modului lor de operare si a beneficiilor pe care le aduc, puteti lua masurile necesare de securitate astel incat sa puteti naviga cu incredere pe internet.</li>
-    </ul>
-    <h2>Cum pot opri cookie-urile?</h2>
-    <p>Dezactivarea si refuzul de a primi cookie-uri pot face anumite site-uri impracticabile sau dificil de vizitat si folosit. De asemenea, refuzul de a accepta cookie-uri nu inseamna ca nu veti mai primi/vedea publicitate online.</p>
-    <p>Este posibila setarea din browser pentru ca aceste cookie-uri sa nu mai fie acceptate sau poti seta browserul sa accepte cookie-uri de la un site anume. Dar, de exemplu, daca nu doresti sa folosesti cookie-urile nu poti sa urmezi si pasii urmatori dupa inregistrarea completarea formularului.</p>
-    <p>Toate browserele moderne ofera posibilitatea de a schimba setarile cookie-urilor. Aceste setari se gasesc de regula in optiuni sau in meniul de preferinte al browserului tau.</p>
-    <p>Pentru setarile cookie-urilor generate de terti, si pentru mai multe informatii privind confidentialitatea legata de publicitatea online, IAB Romania pune la dispozitie urmatorul site:
-      <a href="http://www.youronlinechoices.com/ro/">http://www.youronlinechoices.com/ro/</a>
-    </p>`,
+    text: `<p><strong>PREAMBUL</strong></p>
+<p><span style="font-weight: 400;">Informațiile prezentate &icirc;n continuare au drept obiectiv informarea și aducerea la cunoștința utilizatorului mai multe detalii despre plasarea, administrarea și utilizarea cookie-urilor de către site-ul&nbsp;</span><a href="http://www.votdiaspora.md"><span style="font-weight: 400;">www.votdiaspora.md</span></a><span style="font-weight: 400;">, proprietate a A.O. Code for Moldova.</span></p>
+<p><span style="font-weight: 400;">A.O. Code for Moldova &icirc;și rezervă dreptul de a utiliza cookies pentru a garanta navigarea rapidă prin paginile și categoriile platformei, a optimiza funcții făc&icirc;ndu-o c&acirc;t mai intuitivă pentru utilizator c&acirc;t și pentru a personaliza comportamentului vizitatorilor săi privind preferințele, ca rezultat, gestionarea acestor informații și statistici vor fi &icirc;ntrebuințate &icirc;n scopuri de prevenire a problemelor tehnice, de content și anunțuri personalizate.</span></p>
+<p><span style="font-weight: 400;">Te informăm că ne-am actualizat Politica Cookies &icirc;n conformitate cu prevederile Legii Nr 133 privind protecția și prelucrarea datelor cu caracter personal și te rugăm să citești detaliat modificările privind&nbsp;</span></p>
+<p><strong>Termeni și Condiții</strong><span style="font-weight: 400;">, </span><strong>Politica de Confidențialitate </strong><span style="font-weight: 400;">a </span><em><span style="font-weight: 400;">platformei voluntar.md</span></em><span style="font-weight: 400;"> Pentru a continua navigarea pe platformă, asigurați-vă că ați citit și ați &icirc;nțeles </span><strong>Politica Cookies</strong><span style="font-weight: 400;"> a, iar dacă doriți modificarea setărilor fișierelor cookies, accesați browser-ul dvs și ștergeți-le.</span></p>
+<p><span style="font-weight: 400;">Legislația &icirc;n vigoare ne permite stocarea pe dispozitivul dvs a cookie-urilor care sunt strict necesare pentru operarea platformei. Referitor la instalarea celorlalte tipuri de cookies avem nevoie de consimțămintul dvs, pe care vi-l solicităm să ni-l acordați/refuzați la accesarea paginii principale a platformei.</span></p>
+<p>&nbsp;</p>
+<ol>
+<li><strong> CE ESTE UN COOKIE?</strong></li>
+</ol>
+<p><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Un cookie este un fișier de mici dimensiuni, &icirc;n general alcătuit din litere și cifre, care este descărcat &icirc;n memoria unui calculator, telefon mobil sau tabletă atunci c&icirc;nd utilizatorul accesează un anumit site web. Scopul acestuia este stocarea preferințelor pentru un anumit site, limba preferată sau locația, dar și facilitarea anumitor funcționalități pentru vizitatorul paginii: reținerea parolei &icirc;n mod implicit, păstrarea produselor &icirc;n coșului de cumpărături, manifestarea interesului pentru un anumit articol, etc.</span></p>
+<p><span style="font-weight: 400;">Aşadar, cookie-ul este instalat prin solicitarea emisă de către un web-server unui browser (ex: Internet Explorer, Chrome, Firefox) și este complet &ldquo;pasiv&rdquo; (nu conţine programe software, viruşi sau spyware şi nu poate accesa informaţiile de pe HDD-ul utilizatorului). Altfel spus, cookie-ul poate fi văzut ca un card de identificare al utilizatorului de Internet, care anunță site-ul web de fiecare dată c&icirc;nd utilizatorul se &icirc;ntoarce pe respectivul site.</span></p>
+<p><span style="font-weight: 400;">Cookie-urile accesează, prelucrează și stochează informații cu caracter personal despre dvs at&icirc;t &icirc;n mod direct (nume, prenume, email, telefon, adresă &ndash; atunci c&icirc;nd creați un profil de utilizator pe un site) c&icirc;t și &icirc;n mod indirect (tipul de dispozitiv, zona geografică, adresă IP, cuvintele-cheie introduse &icirc;n bara de căutare, motoarele de căutare de pe care ați fost redirecționat, ora accesării, timpul petrecut pe site, etc), date care sunt colectate de metrici &icirc;n baza activităților online efectuate.</span></p>
+<p><span style="font-weight: 400;">Totodată, utilizatorul are posibilitatea de a configura browser-ul său astfel &icirc;nc&acirc;t de fiecare dată, la accesarea unei pagini web, să fie &icirc;nștiințat despre utilizarea cookies de către pagina respectivă, dar și despre tipurile de cookies care se vor instala &icirc;n dispozitiv &icirc;n urma accesării, prin urmare, vizitatorului oferindu-i-se dreptul de a alege &icirc;ntre autorizarea și acceptarea sau refuzul instalării acestora.</span></p>
+<p>&nbsp;</p>
+<ol>
+<li><strong> FUNCȚIILE ȘI UTILITATEA COOKIE-URILOR</strong></li>
+</ol>
+<p><strong>&nbsp;</strong><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Cookie-urile pot asigura o interacțiune mai rapidă si mai ușoară &icirc;ntre utilizatori și site-urile web, dar şi stoca informații personale de identificare. Spre exemplu, &icirc;n momentul autentificării unui utilizator pe un anumit site web, datele s&icirc;nt stocate &icirc;ntr-un cookie; ulterior, utilizatorul poate accesa respectivul site fără a fi nevoie să se autentifice din nou. &Icirc;n alte cazuri, cookie-urile pot fi utilizate pentru stocarea de informații referitoare la activitățile desfășurate de utilizator pe o anumită pagină web, astfel &icirc;nc&icirc;t acesta să &icirc;și poată relua ușor respectivele activități la o accesare ulterioară a site-ului. Cookie-urile spun serverului ce pagini trebuie să arate utilizatorului, astfel &icirc;nc&icirc;t acesta să nu fie nevoit să navigheze &icirc;ntregul site de la &icirc;nceput. De asemenea, cookie-urile pot oferi site-urilor web posibilitatea de a monitoriza activitățile online ale utilizatorilor și de a stabili profiluri de utilizatori, care pot fi apoi folosite &icirc;n scopuri de marketing.</span></p>
+<p><span style="font-weight: 400;">Cookie-urile permit, printre altele, unei pagini web să stocheze și să recupereze informații despre obiceiurile de navigare ale unui utilizator sau echipamentele sale și, &icirc;n funcție de informațiile pe care le conțin și de modul &icirc;n care &icirc;și folosesc echipamentul, pot fi folosite pentru recunoaștea utilizatorului.</span></p>
+<p><span style="font-weight: 400;">Totodată, cookie-urile oferă proprietarului paginii web și un feedback valoros privind modul de interacțiune a utilizatorilor cu platforma, ajută la depistarea problemelor tehnice și a cauzei ratei de respingere, care, fiind eliminate, &icirc;mbunătățesc și eficientizează procesului de lucru.</span></p>
+<p><span style="font-weight: 400;">Cookie-urile nu sunt viruși sau programe-spion. Cele mai populare avantaje atunci c&icirc;nd utilizăm cookie-uri sunt:</span></p>
+<p><span style="font-weight: 400;">-Reținerea filtrelor de protecție și securitate privind conținutul pe Internet accesat de copii (family mode, safe search);</span></p>
+<p><span style="font-weight: 400;">-Rețin parole și pagini preferate;</span></p>
+<p><span style="font-weight: 400;">-servicii adaptate preferințelor utilizatorului;</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">-limitarea frecvenței de difuzare a reclamelor;</span></p>
+<p><span style="font-weight: 400;">-furnizarea de publicitate mai relevantă pentru utilizator;</span></p>
+<p><span style="font-weight: 400;">- prin datele colectate ajută paginile web să &icirc;și optimizeze și să &icirc;și &icirc;mbunătățească conținutul, serviciile și produsele</span></p>
+<p>&nbsp;</p>
+<p><strong>III. TIPURI DE COOKIES</strong></p>
+<p><span style="font-weight: 400;"><br /></span><strong>3.1. Cookie-uri specifice unei sesiuni online</strong></p>
+<p><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Cookie-urile specifice unei sesiuni stochează, de regulă, un identificator care permite utilizatorului să treacă de la o pagină web la alta fără a fi necesar să introducă de fiecare dată informațiile de identificare (nume de utilizator, parolă, etc). Astfel de cookie-uri sunt utilizate la scară largă de către site-urile comerciale pentru a ține evidența produselor adăugate de către un utilizator &icirc;n coșul de cumpărături. Atunci c&icirc;nd utilizatorul vizitează o anumită pagină a unui catalog de produse și selectează anumite produse, cookie-ul reține produsele selectate și le adaugă &icirc;n coșul de cumpărături, care va conține toate produsele selectate &icirc;n momentul &icirc;n care utilizatorul dorește să părăsească pagina. Cookie-urile specifice unei sesiuni sunt stocate &icirc;n memoria calculatorului utilizatorului doar pe durata unei sesiuni de navigare pe Internet și sunt șterse &icirc;n mod automat &icirc;n momentul &icirc;n care browser-ul este &icirc;nchis.</span></p>
+<p>&nbsp;</p>
+<p><strong>3.2. Cookie-uri permanente, persistente sau stocate</strong></p>
+<p><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Cookie-urile persistente sunt stocate la nivelul calculatorului utilizatorului și nu sunt șterse atunci c&icirc;nd sesiunea de navigare este &icirc;nchisă. Aceste cookie-uri pot reține preferințele utilizatorului pentru un anumit site web, astfel &icirc;nc&icirc;t acestea să poată fi utilizate &icirc;n cadrul altor sesiuni de navigare pe Internet. Pe l&icirc;ngă informațiile de autentificare, cookie-urile persistente pot reține și detalii despre preferințe privind meniul, limbă, temă, pagini favorite &icirc;n interiorul unui site, etc. Atunci c&icirc;nd utilizatorul accesează un site pentru prima dată, acesta este prezentat &icirc;n modul implicit. Ulterior, cookie-urile pot furniza informații referitoare la numărul de vizitatori, timpul (&icirc;n medie) petrecut pe o anumită pagină, și performanțele unui site web.</span></p>
+<p>&nbsp;</p>
+<p><strong>3.3. Cookie-uri Flash</strong></p>
+<p><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Dacă utilizatorul are Adobe Flash instalat pe calculator, fișiere&nbsp;mici pot fi stocate &icirc;n memoria respectivului calculator de către site-uri web care conțin elemente Flash (cum ar fi clipuri video). Aceste fișiere sunt cunoscute sub numele de &bdquo;local shared objects&rdquo; sau &bdquo;cookie-uri flash&rdquo; și pot fi utilizate pentru aceleași scopuri ca și cookie-urile obișnuite.</span></p>
+<p>&nbsp;</p>
+<p><strong>3.4. Cookie-uri First Party vs Cookie-uri Third Party</strong></p>
+<p><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Fiecare cookie are un &bdquo;proprietar&rdquo; &ndash; site-ul web/domeniul Internet care plasează respectivul cookie. Cookie-urile&nbsp;</span><em><span style="font-weight: 400;">first party</span></em><span style="font-weight: 400;">&nbsp;(prima parte)&nbsp;sunt plasate de către domeniul Internet /site-ul web accesat de către utilizator (a cărui adresă apare &icirc;n bara de adrese a browserului). Un cookie&nbsp;</span><em><span style="font-weight: 400;">third party</span></em><span style="font-weight: 400;">&nbsp;(parte terță)&nbsp;este plasat de către un alt domeniu Internet/site web dec&icirc;t cel accesat de către utilizator; acest lucru &icirc;nseamnă că site-ul web accesat conține și informații provenind de la un site web terț - spre exemplu, un banner publicitar care apare pe site-ul accesat.&nbsp;</span></p>
+<p>&nbsp;</p>
+<ol>
+<li><strong> TIPURI DE COOKIES FOLOSITE DE&nbsp;PLATFORMA VOLUNTAR.MD</strong></li>
+</ol>
+<p><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Platforma&nbsp;folosește următoarele tipuri de cookie-uri:&nbsp;</span></p>
+<p><strong>4.1. După frecvența de accesare</strong></p>
+<p><strong>Per sesiune</strong><span style="font-weight: 400;"> - s&icirc;nt fișiere temporare ce răm&icirc;n &icirc;n terminalul utilizatorului p&icirc;nă la terminarea sesiunii sau &icirc;nchiderea aplicației (browserului web).&nbsp;</span></p>
+<p><strong>Permanente (Persistente)</strong><span style="font-weight: 400;"> - fișierele fixe răm&icirc;n pe terminalul utilizatorului pe o perioadă p&icirc;nă s&icirc;nt şterse manual de utilizator. Informaţiile pe care le adună aceste cookie-uri pot fi identificabile, cum ar fi numele dumneavoastră de utilizator, detalii pe care le-ați dezvăluit personal.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Totodată, cookie-urile permanente colectează informații despre utilizator, cum ar fi comportamentul de navigare pe Web sau preferințele utilizatorului pentru anumite produse de pe site.</span> <span style="font-weight: 400;">Cookie-urile persistente includ și &lsquo;third party cookies&rsquo;, cum ar fi: motoarele de căutare, site-uri de socializare, care pot fi folosite pentru a memora interesele unui utilizator, astfel &icirc;nc&acirc;t să fie livrat conținut și publicitate c&acirc;t mai relevantă pentru aceste profiluri de utilizatori.</span></p>
+<p>&nbsp;</p>
+<ol>
+<li><strong> CATEGORII DE COOKIES FOLOSITE DE</strong><strong>PLATFORMA VOLUNTAR.MD</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Reieșind din tipul de cookies specific sesiunilor online, platforma folosește următoarele categorii de cookie-uri:</span></p>
+<p><span style="font-weight: 400;">-Cookie-uri strict necesare și de performanță a site-ului</span></p>
+<p><span style="font-weight: 400;">-Cookie-uri de analiză a vizitatorilor</span></p>
+<p><span style="font-weight: 400;">-Cookie-uri pentru geotargetting&nbsp;</span></p>
+<p>&nbsp;</p>
+<ol>
+<li><strong> SCOPUL COLECTĂRII COOKIES&nbsp;</strong></li>
+</ol>
+<p><span style="font-weight: 400;">De asemenea, o vizită pe site-ul nostru poate plasa cookie-uri &icirc;n scopuri de:</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">-a personaliza experiența dvs pe site;</span></p>
+<p><span style="font-weight: 400;">- &icirc;mbunătățirea serviciilor noastre;</span></p>
+<p><span style="font-weight: 400;">-a colecta date despre preferințele și interesele utilizatorilor</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>VII. MODUL DE MONITORIZARE ȘI PRELUCRARE A ACTIVITĂȚILOR ONLINE PE PLATFORMĂ</strong></p>
+<p><span style="font-weight: 400;">Metodele prin care urmărim și colectăm date și termeni despre activitățile online ale utilizatorilor noștri se realizează at&icirc;t prin intermediul cookies proprii integrați &icirc;n site c&icirc;t și cookies părți terțe: Google TAG Manager, Google Analytics, motoare de căutare sau pagini web terțe prin intermediul cărora utilizatorii accesează și distribuie link-uri sau conținut, care &icirc;i redirecționează pe </span><em><span style="font-weight: 400;">platformă.</span></em><span style="font-weight: 400;"> Datele obținute &icirc;n baza rapoartelor de activități generate de aceste intrumente de măsurare sunt: tendințele de căutare, măsurarea performanței, procesarea termenilor de căutare, distribuirea conținutului, urmărirea &icirc;ntreruperilor, remedierea problemelor raportate de dvs, &icirc;nțelegerea termenilor de căutare, verificare ortografie folosită.</span></p>
+<p>&nbsp;</p>
+<p><strong>VIII. LOCUL STOCĂRII ȘI DURATA DE VALABILITATE COOKIES</strong></p>
+<p><span style="font-weight: 400;">Cookie-urile per sesiune sunt folosite p&icirc;nă c&acirc;nd părăsiți pagina web, astfel &icirc;nc&acirc;t niciunul nu este &icirc;nregistrat pe hard disk-ul utilizatorului. De asemenea, date precum conținut creat, &icirc;ncărcat sau distribuit pot fi șterse &icirc;n orice moment.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Cookie-urile permanente sunt reținute &icirc;n browser-ul dvs, și ori de c&acirc;te ori utilizatorul revine pe acel site, cookie-urile salvate &icirc;n browser-ul acestuia &icirc;l ajută să recunoască mai rapid informația de care are nevoie. Cookie-urile permante pot fi șterse doar de utilizator, din browser-ul dispozitivului de pe care acesta a accesat site-ul respectiv. Ștergerea datelor colectate prin intermediul cookies se efectuează &icirc;n siguranță.</span></p>
+<p>&nbsp;</p>
+<ol>
+<li><strong> MECANISME COOKIES FOLOSITE DE PLATFORMA VOLUNTAR.MD</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Mecanismele prin care </span><em><span style="font-weight: 400;">itunexx.md</span></em><span style="font-weight: 400;"> colectează, prelucrează și stochează cookies sunt următoarele instrumente și tehnologii:</span></p>
+<p><span style="font-weight: 400;">-Locația Google Map, Hărți Google Map</span></p>
+<p><span style="font-weight: 400;">-stocare date de pe web &icirc;n brower-ul dvs/memorie cache</span></p>
+<p><span style="font-weight: 400;">-Dispozitivele dvs: PC, Tableta, Smartphone și rata de engagement</span></p>
+<p>&nbsp;</p>
+<ol>
+<li><strong> CONFIDENȚIALITATEA DATELOR COLECTATE PRIN COOKIES</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Informațiile pe care le prelucrează </span><em><span style="font-weight: 400;">platforma</span></em><span style="font-weight: 400;"> prin intermediul cookies proprii și </span><em><span style="font-weight: 400;">cookies third parties</span></em><span style="font-weight: 400;"> depinde de modul &icirc;n care utilizați serviciile noastre și setați acțiunile dvs de confidențialitate. &Icirc;n cazul datelor cu caracter personal colectate prin &icirc;nregistrarea pe site, abonarea la newsletter, comunicarea electronică sau alte acțiuni online, care survin din obligațiile noastre pentru asigurarea serviciilor furnizate, datele dvs nu vor fi divulgate către alte părți terțe dec&icirc;t cele, care sunt partenerii contractuali ai A.O. Code for Moldova.</span></p>
+<p><span style="font-weight: 400;">Nu furnizăm sub nici o formă datele dvs personale companiilor de publicitate. Informațiile cu caracter personal făcute publice de utilizator prin intermediul conturilor personale create pe alte pagini web terțe și platforme sociale sunt responsabilitatea dvs. Mai multe detalii privind confidențialitatea și modul de prelucrare a datelor cu caracter personal găsiți &icirc;n </span><strong>Politica de Confidențialitate</strong><span style="font-weight: 400;"> și </span><strong>Termeni și Condiții</strong><span style="font-weight: 400;">.</span></p>
+<p>&nbsp;</p>
+<ol>
+<li><strong> TRANFERUL DE DATE COLECTATE PRIN COOKIES</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Informațiile colectate prin intermediul cookies sunt prelucrate at&icirc;t pe server local c&icirc;t și &icirc;n afara țării de reședință. Cadrul legal privind prelucrarea și protecția datelor cu caracter personal se aplică conform legislației Republicii Moldova.</span></p>
+<p>&nbsp;</p>
+<p><strong>XII. OBȚINEREA CONSIMȚĂM&Icirc;NTULUI COOKIES DE CĂTRE PLATFORMA VOLUNTAR.MD</strong></p>
+<p><span style="font-weight: 400;">Cookie-urile reprezintă un mecanism indispensabil atunci c&icirc;nd navigăm online și accesăm site-uri. Ele sunt absolut necesare pentru ca o pagină web să funcționeze ușor, să fie responsive și să asigure o experiență de navigare rapidă, prietenoasă și adaptată preferințelor și intereselor fiecărui utilizator. Refuzarea sau dezactivarea cookie-urilor poate face unele site-uri imposibil de folosit.</span></p>
+<p><strong>Text</strong> <strong>Consimțăm&icirc;nt:</strong></p>
+<p><em><span style="font-weight: 400;">Utilizăm cookies pentru analiza traficului de pe site, a canalelor de unde vin vizitatorii c&icirc;t și pentru afișarea informațiilor c&icirc;t mai exacte despre interesele și termenii de căutare atunci c&icirc;nd navigați pe site. Cookie-urile identifică, colectează și stochează informații despre istoricul vizitei Dvs pe site precum și modul &icirc;n care accesați, utilizați, interacționați cu paginile produselor și conținutul, inclusiv atunci c&icirc;nd vă deplasați prin categoriile și secțiunile magazinului. Vom ține evidența datelor pe care ați făcut clic și ați manifestat interes pentru a le utiliza &icirc;n scopuri de marketing și creare conținut personalizat. Prin clic &ldquo;Accept&rdquo; sunteți de acord cu utilizarea Cookie-urilor și vă exprimați consimțăm&icirc;ntul cu privire la accesarea, stocarea și prelucrarea datelor colectate prin intermediul fișierelor Cookies. Mai multe informații despre cum utilizăm cookies și despre configurarea setărilor vezi &icirc;n </span></em><strong><em>Politica Cookies</em></strong><em><span style="font-weight: 400;">.</span></em></p>
+<p><span style="font-weight: 400;">Totodată, sub fereastra care notifică textul consimțăm&icirc;ntului, se află butonul &ldquo;Accept&rdquo;</span><strong> &ldquo;</strong><span style="font-weight: 400;">Refuz&rdquo;, și &ldquo;Citește mai mult&rdquo;. Prin selectarea butonului &ldquo;Accept&rdquo;, utilizatorul &icirc;și exprimă consimțăm&icirc;ntului că a citit și a &icirc;nțeles ce sunt cookie-urile, ce date colectează și scopurile &icirc;n care acestea vor fi folosite de către platformă.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Prin butonul </span><strong>&ldquo;</strong><span style="font-weight: 400;">Refuz&rdquo;, clientul are dreptul să refuze colectarea acestor date de către furnizorul de servicii.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Butonul &ldquo;Citește mai mult&rdquo; informează utilizatorul despre faptul că &icirc;n cazul &icirc;n care, nu a &icirc;nțeles &icirc;n totalitate termenii cookies, ce sunt și cum sunt folosiți, se poate informa mai detaliat pe pagina </span><strong>Politica Cookies.</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>XIII. RETRAGEREA CONSIMȚĂM&Icirc;NTULUI COOKIES&nbsp;</strong></p>
+<p><span style="font-weight: 400;">Retragerea consimțăm&icirc;ntului privind colectarea datelor prin intermediul cookies, acordat anterior, are loc prin aceleași mijloace prin care s-a acordat:</span></p>
+<p><span style="font-weight: 400;">-ștergerea contului de utilizator</span></p>
+<p><span style="font-weight: 400;">-eliminarea datelor din browser-ul de pe care ați accesat anterior platforma (ștergerea memoriei cache)</span></p>
+<p>&nbsp;</p>
+<p><strong>XIV. SECURITATEA ȘI RISCURILE COOKIE-URILOR</strong></p>
+<p><span style="font-weight: 400;">Fișierele Cookies nu se pot auto-copia și nu se pot răsp&icirc;ndi &icirc;n alte rețele, &icirc;nsă stochează informații cu caracter personal despre utilizator.</span></p>
+<p><span style="font-weight: 400;">Colectarea directă a informaților personale este generată de către utilizator, &icirc;n momentul &icirc;n care acesta completează formulare online, se &icirc;nregistrează pe anumite site-uri web, utilizează sisteme de plăți electronice, etc. &Icirc;n general, informațiile sensibile sunt protejate pentru a nu putea fi accesate de persoane neautorizate, &icirc;nsă există cazuri c&icirc;nd astfel de date pot fi copiate tocmai pentru că utilizatorul se conectează la server utiliz&icirc;nd o rețea necriptată, cum ar fi un canal WiFi nesecurizat.</span></p>
+<p><span style="font-weight: 400;">Pentru a reduce riscurile de interceptare a cookie-urilor, se folosesc &bdquo;secure cookies&rdquo;. Cookie-urile de tip &bdquo;secure&rdquo; indică browser-ului să folosească cookie-uri doar prin conexiuni sigure/criptate. Astfel, dacă site-ul web folosește SSL (HTTPS), cookie-urile aferente site-ului sunt marcate cu atributul &bdquo;secure&rdquo;, acest lucru &icirc;mpiedic&icirc;nd transmiterea lor către o pagină non-HTTPS, chiar dacă aceasta este localizată la același URL.</span></p>
+<p><span style="font-weight: 400;">Dacă nu sunteți singura persoană care are acces la calculator, atunci setați browser-ului pentru a șterge datele de navigare de fiecare dată c&icirc;nd &icirc;nchideți browserul, astfel orice informație despre accesările dvs va fi ștearsă la &icirc;nchiderea sesiunii de navigare.</span></p>
+<p><span style="font-weight: 400;">Instalați-vă și updatați-vă constant browser-ele și aplicațiile. Multe dintre atacurile bazate pe cookies se r</span> <span style="font-weight: 400;">ealizează exploat&icirc;nd punctele slabe ale versiunilor vechi ale browserelor.</span></p>
+<p>&nbsp;</p>
+<ol>
+<li><strong> CONFIGURAREA, DEZACTIVAREA, ȘTERGEREA COOKIE-URILOR</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Cookie-urile permanente pastrează &icirc;n memoria cache a browser-ului paginile, imaginile și conținutul accesat anterior, de aceea, la următoarea accesare, brower-ul se va adresa la informația din memoria cache și o va afișa mai repede.</span></p>
+<p><span style="font-weight: 400;">Dacă goliți memoria cache și ștergeți cookie-urile, setările (cum ar fi numele de utilizator și parolele) vor fi&nbsp; șterse, iar unele site-uri s-ar putea afișa un pic mai lent, deoarece toate imaginile trebuie re&icirc;ncărcate.</span></p>
+<p><span style="font-weight: 400;">Toate browserele au opțiuni de a dezactiva utilizarea cookie-urilor de pe toate paginile web vizitate sau numai pentru unele specifice, de a șterge toate cookie-urile stocate pe computer sau doar o parte din ele, la alegerea dvs.</span></p>
+<p><span style="font-weight: 400;">De regulă, &icirc;n &ldquo;opțiuni&rdquo; sau &icirc;n meniul de &ldquo;preferințe&rdquo; al browserelor găsiți intrucțiuni privind setările pentru care optați.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Setări Cookies Internet Explorer</span></p>
+<p><a href="https://support.microsoft.com/ro-ro/help/17442/windows-internet-explorer-delete-manage-cookies"><span style="font-weight: 400;">https://support.microsoft.com/ro-ro/help/17442/windows-internet-explorer-delete-manage-cookies</span></a></p>
+<p><span style="font-weight: 400;">Setări Cookies Firefox</span></p>
+<p><a href="https://support.mozilla.org/ro/kb/activarea-si-dezactivarea-cookie-urilor"><span style="font-weight: 400;">https://support.mozilla.org/ro/kb/activarea-si-dezactivarea-cookie-urilor</span></a></p>
+<p><span style="font-weight: 400;">Setări Cookies Google Chrome</span></p>
+<p><a href="https://support.google.com/accounts/answer/61416?co=GENIE.Platform%3DDesktop&amp;hl=ro"><span style="font-weight: 400;">https://support.google.com/accounts/answer/61416?co=GENIE.Platform%3DDesktop&amp;hl=ro</span></a></p>
+<p><span style="font-weight: 400;">Setări Cookies Google Safari</span></p>
+<p><a href="https://support.apple.com/ro-ro/HT201265"><span style="font-weight: 400;">https://support.apple.com/ro-ro/HT201265</span></a></p>
+<p><span style="font-weight: 400;">Setări Cookies Opera</span><span style="font-weight: 400;"><br /></span><a href="https://blogs.opera.com/news/2015/08/how-to-manage-cookies-in-opera/"><span style="font-weight: 400;">https://blogs.opera.com/news/2015/08/how-to-manage-cookies-in-opera/</span><span style="font-weight: 400;"><br /></span></a><span style="font-weight: 400;">Pentru setările cookie-urilor generate de terți, puteți consulta și site-ul:</span><span style="font-weight: 400;"><br /></span><a href="http://www.youronlinechoices.com/ro/"><span style="font-weight: 400;">http://www.youronlinechoices.com/ro/</span></a></p>
+<p><strong>NOTIFICARE LEGALĂ: </strong><span style="font-weight: 400;">Prezentul document este protejat de drepturi de autor &icirc;n temeiul legii </span><span style="font-weight: 400;">Nr 114/2014 privind drepturile de autor și proprietatea intelectuală. </span><span style="font-weight: 400;">Copierea, reproducerea sau republicarea acestuia reprezintă contravenție. </span></p>`,
   },
   sponsors: {
     powered_by: 'Cu sprijinul',
