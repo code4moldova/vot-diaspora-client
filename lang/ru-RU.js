@@ -23,8 +23,6 @@ export default {
     seeStreets: 'Список адресов',
     pollingStationNumber: 'Secția de votare Nr.',
     address: 'Адрес:',
-    assignedStreetsLabel:
-      'La această secție pot vota persoanele care locuiesc pe următoarele străzi:',
   },
   exceptional_cases: {
     case1_title:

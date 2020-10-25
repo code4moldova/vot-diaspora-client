@@ -17,18 +17,11 @@
         </button>
       </div>
       <div v-show="showStreet">
-        <p class="font-weight-bold mt-4 mb-0">
-          {{ $t('pollingStationCard.assignedStreetsLabel') }}
-        </p>
+       
       </div>
     </div>
     <ul v-if="showStreet">
-      <li
-        v-for="assignedAddress of assignedAddresses"
-        :key="assignedAddress.id"
-      >
-        {{ assignedAddress.street }} {{ assignedAddress.houseNumbers }}
-      </li>
+     
     </ul>
   </div>
 </template>
