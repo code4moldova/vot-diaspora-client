@@ -7,14 +7,14 @@
         :to="localePath('index')"
         class="text-dark d-flex flex-column flex-sm-row align-items-center text-decoration-none"
         ><img
-          class="navbar-brand mr-2"
+          class="navbar-brand mr-3"
           src="~/assets/votdiaspora_logo_1.svg"
           height="60"
           alt="Vot Diaspora" />
         <div class="mt-2">
           <small>by</small>
           <img
-            class="navbar-brand"
+            class="navbar-brand ml-3"
             src="../assets/logo_code4md.svg"
             width="100"
             alt="Code4MD"
