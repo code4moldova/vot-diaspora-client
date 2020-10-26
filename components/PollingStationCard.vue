@@ -16,13 +16,9 @@
           {{ $t('pollingStationCard.seeStreets') }}
         </button>
       </div>
-      <div v-show="showStreet">
-       
-      </div>
+      <div v-show="showStreet"></div>
     </div>
-    <ul v-if="showStreet">
-     
-    </ul>
+    <ul v-if="showStreet"></ul>
   </div>
 </template>
 
