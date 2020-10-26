@@ -26,7 +26,7 @@ export default {
       { property: 'og:title', content: 'Vot Diaspora Republica Moldova' },
       {
         property: 'og:image',
-        content: 'https://votdiaspora.md/og_image.png',
+        content: '/og_image.png',
       },
       {
         name: 'theme-color',
