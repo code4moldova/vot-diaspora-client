@@ -5,10 +5,10 @@
     >
       <nuxt-link
         :to="localePath('index')"
-        class="text-dark d-flex flex-column flex-sm-row align-items-center"
+        class="text-dark d-flex flex-column flex-sm-row align-items-center text-decoration-none"
         ><img
           class="navbar-brand mr-2"
-          src="~/assets/votdiaspora_logo_2.svg"
+          src="~/assets/votdiaspora_logo_1.svg"
           height="60"
           alt="Vot Diaspora" />
         <div class="mt-2">
