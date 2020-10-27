@@ -226,7 +226,6 @@ export default {
     },
 
     /**
-     * Represents a book.
      * @constructor
      * @param {number} latitude - The latitude of the coordinates.
      * @param {number} longitude - The longitude of the coordinates.
