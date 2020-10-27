@@ -27,11 +27,10 @@
           class="col mb-4"
         >
           <PollingStationCard
-            :polling-station-number="pollingStation.pollingStationNumber"
-            :county="pollingStation.county"
-            :address="pollingStation.address"
-            :distance="pollingStation.distance"
-            :assigned-addresses="pollingStation.assignedAddresses"
+            :polling-station="pollingStation"
+            @updateMap="
+              setHereMap(pollingStation.latitude, pollingStation.longitude)
+            "
           />
         </div>
       </div>
@@ -52,12 +51,10 @@
           class="col mb-4"
         >
           <PollingStationCard
-            :polling-station-number="pollingStation.pollingStationNumber"
-            :county="pollingStation.county"
-            :address="pollingStation.address"
-            :distance="pollingStation.distance"
-            :assigned-addresses="pollingStation.assignedAddresses"
-            :locality="pollingStation.locality"
+            :polling-station="pollingStation"
+            @updateMap="
+              setHereMap(pollingStation.latitude, pollingStation.longitude)
+            "
           />
         </div>
       </div>
@@ -74,9 +71,9 @@
 <script>
 import { debounce } from 'debounce'
 import VueTypeaheadBootstrap from 'vue-typeahead-bootstrap'
-import houseMarker from '../assets/house_marker.svg'
-import pollingStationMarker from '../assets/polling_station_marker.svg'
-import { PollingStationMatcherService } from '../service/polling-station-matcher.service'
+import pollingStationMarker from '~/assets/polling_station_marker.svg'
+import { PollingStationMatcherService } from '~/service/polling-station-matcher.service'
+import houseMarker from '~/assets/house_marker.svg'
 import PollingStationCard from '~/components/PollingStationCard'
 
 export default {
@@ -124,6 +121,7 @@ export default {
         latitude,
         longitude,
       } = addressDetail.response.view[0].result[0].location.displayPosition
+
       const selectedGeocodeAddress =
         addressDetail.response.view[0].result[0].location.address
       this.addMarker(latitude, longitude, houseMarker)
@@ -145,17 +143,11 @@ export default {
         : this.pollingStations
       stations.forEach((c) => {
         this.addMarker(c.latitude, c.longitude, pollingStationMarker)
-        this.hereMap.setCenter({
-          lat: c.latitude,
-          lng: c.longitude,
-        })
+        this.setHereMap(c.latitude, c.longitude)
       })
       this.hereMap.setZoom(16)
       if (stations.length > 1) {
-        this.hereMap.setCenter({
-          lat: latitude,
-          lng: longitude,
-        })
+        this.setHereMap(latitude, longitude)
         this.hereMap.setZoom(15)
       }
     },
@@ -231,6 +223,19 @@ export default {
       // add UI
       H.ui.UI.createDefault(this.hereMap, maptypes)
       // End rendering the initial map
+    },
+
+    /**
+     * Represents a book.
+     * @constructor
+     * @param {number} latitude - The latitude of the coordinates.
+     * @param {number} longitude - The longitude of the coordinates.
+     */
+    setHereMap(lat, lng) {
+      this.hereMap.setCenter({
+        lat,
+        lng,
+      })
     },
   },
 }
