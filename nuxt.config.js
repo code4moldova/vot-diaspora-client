@@ -21,7 +21,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Vot Diaspora este o platformă dezvoltată de Code for Moldova care oferă rapid persoanelor din Diaspora informații despre cum pot vota la alegerile prezidentiale din Republica Moldova din 1 noiembrie 2020.',
+          'VotDiaspora.md gaseste cea mai apropiata sectie de vot pentru persoanele din Diaspora si informații despre cum pot vota la alegerile prezidentiale din Republica Moldova din 15 noiembrie 2020.',
       },
       { property: 'og:title', content: 'Vot Diaspora Republica Moldova' },
       {
@@ -35,7 +35,7 @@ export default {
       {
         property: 'og:description',
         content:
-          'Vot Diaspora este o platformă dezvoltată de Code for Moldova care oferă rapid persoanelor din Diaspora informații despre cum pot vota la alegerile prezidentiale din Republica Moldova din 1 noiembrie 2020.',
+          'VotDiaspora.md gaseste cea mai apropiata sectie de vot pentru persoanele din Diaspora si informații despre cum pot vota la alegerile prezidentiale din Republica Moldova din 15 noiembrie 2020.',
       },
       { property: 'og:url', content: 'https://votdiaspora.md' },
       { property: 'og:type', content: 'website' },
