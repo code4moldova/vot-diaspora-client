@@ -11,36 +11,9 @@
     >
     </vue-typeahead-bootstrap>
     <div v-show="showErrorMessage" class="bg-danger p-2 text-center text-white">
-      Ne pare rau, a aparut o eroare.
+      {{ $t('pollingStationSearch.error') }}
     </div>
-    <div v-if="pollingStationsWithAddress.length">
-      <p class="font-weight-bold my-4">
-        {{ $t('pollingStationSearch.hasPermanentResidence') }}
-      </p>
-      <div
-        class="row row-cols-1"
-        :class="pollingStationsWithAddress.length > 1 ? 'row-cols-md-2' : ''"
-      >
-        <div
-          v-for="pollingStation of pollingStationsWithAddress"
-          :key="pollingStation.id"
-          class="col mb-4"
-        >
-          <PollingStationCard
-            :polling-station="pollingStation"
-            @updateMap="
-              setHereMap(pollingStation.latitude, pollingStation.longitude)
-            "
-          />
-        </div>
-      </div>
-    </div>
-    <div
-      v-if="pollingStationsWithAddress.length === 0 && pollingStations.length"
-    >
-      <p class="font-weight-bold my-4">
-        {{ $t('pollingStationSearch.addressNotFound') }}
-      </p>
+    <div v-if="pollingStations.length">
       <div
         class="row row-cols-1"
         :class="pollingStations.length > 1 ? 'row-cols-md-2' : ''"
@@ -59,6 +32,11 @@
         </div>
       </div>
     </div>
+    <div v-if="hasFetchedData && pollingStations.length === 0">
+      <p class="font-weight-bold my-4">
+        {{ $t('pollingStationSearch.addressNotFound') }}
+      </p>
+    </div>
     <div id="map">
       <div
         id="mapContainer"
@@ -72,7 +50,6 @@
 import { debounce } from 'debounce'
 import VueTypeaheadBootstrap from 'vue-typeahead-bootstrap'
 import pollingStationMarker from '~/assets/polling_station_marker.svg'
-import { PollingStationMatcherService } from '~/service/polling-station-matcher.service'
 import houseMarker from '~/assets/house_marker.svg'
 import PollingStationCard from '~/components/PollingStationCard'
 
@@ -85,14 +62,13 @@ export default {
   data() {
     return {
       showErrorMessage: false,
+      hasFetchedData: false,
       address: '',
       addressList: [],
       pollingStations: [],
-      pollingStationsWithAddress: [],
       platform: null,
       hereMap: null,
       apikey: 'V6HPePj40MXZhTq5F7zojc-bByTcgsVnRtrFm21XpKE',
-      pollingStationService: new PollingStationMatcherService(),
     }
   },
   watch: {
@@ -121,8 +97,6 @@ export default {
         latitude,
         longitude,
       } = addressDetail.response.view[0].result[0].location.displayPosition
-      const selectedGeocodeAddress =
-        addressDetail.response.view[0].result[0].location.address
       this.addMarker(latitude, longitude, houseMarker)
 
       const poolingResults = await this.findPoolingStation(latitude, longitude)
@@ -133,25 +107,19 @@ export default {
           })
         )
       )
-      this.pollingStationsWithAddress = this.pollingStationService.findPollingStation(
-        this.pollingStations,
-        selectedGeocodeAddress
-      )
-      const stations = this.pollingStationsWithAddress.length
-        ? this.pollingStationsWithAddress
-        : this.pollingStations
-      stations.forEach((c) => {
+
+      this.pollingStations.forEach((c) => {
         this.addMarker(c.latitude, c.longitude, pollingStationMarker)
 
         this.setHereMap(c.latitude, c.longitude)
       })
-      if (stations.length > 1) {
+      if (this.pollingStations.length > 1) {
         this.setHereMap(latitude, longitude)
         // We should check which station is closest and it's latitude
         let minDistance = 0
         let closestLatitude = 0
         let closestLongitude = 0
-        stations.forEach((station) => {
+        this.pollingStations.forEach((station) => {
           const distanceLatitude = station.latitude - latitude
           const distanceLongitude = station.longitude - longitude
           const distance = Math.sqrt(
@@ -210,6 +178,7 @@ export default {
         const result = await fetch(
           `${process.env.NUXT_ENV_API_URL}/polling-station/near-me?latitude=${latitude}&longitude=${longitude}`
         )
+        this.hasFetchedData = true
         return await result.json()
       } catch (error) {
         this.showErrorMessage = true
