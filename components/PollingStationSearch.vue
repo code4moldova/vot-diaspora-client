@@ -49,6 +49,7 @@
 <script>
 import { debounce } from 'debounce'
 import VueTypeaheadBootstrap from 'vue-typeahead-bootstrap'
+import sharedState from './sharedState'
 import pollingStationMarker from '~/assets/polling_station_marker.svg'
 import houseMarker from '~/assets/house_marker.svg'
 import PollingStationCard from '~/components/PollingStationCard'
@@ -87,18 +88,18 @@ export default {
     })
     this.platform = platform
     this.initializeHereMap()
+
+    const currentUrl = new URL(location.href)
+    const lat = currentUrl.searchParams.get('lat')
+    const long = currentUrl.searchParams.get('long')
+    if (lat && long) {
+      this.applyHomeCoordinates(lat, long)
+      sharedState.coordinates = { lat, long }
+    }
   },
   methods: {
-    async selectAddress(event) {
-      const { locationId } = event
-      this.clearMarkers()
-      const addressDetail = await this.getGeocode(locationId)
-      const {
-        latitude,
-        longitude,
-      } = addressDetail.response.view[0].result[0].location.displayPosition
+    async applyHomeCoordinates(latitude, longitude) {
       this.addMarker(latitude, longitude, houseMarker)
-
       const poolingResults = await this.findPoolingStation(latitude, longitude)
       this.pollingStations = [].concat(
         ...poolingResults.map((g) =>
@@ -152,6 +153,18 @@ export default {
         return
       }
       this.hereMap.setZoom(16)
+    },
+    async selectAddress(event) {
+      const { locationId } = event
+      this.clearMarkers()
+      const addressDetail = await this.getGeocode(locationId)
+      const {
+        latitude,
+        longitude,
+      } = addressDetail.response.view[0].result[0].location.displayPosition
+      this.applyHomeCoordinates(latitude, longitude)
+      history.pushState('', '', `?lat=${latitude}&long=${longitude}`)
+      sharedState.coordinates = { lat: latitude, long: longitude }
     },
     async getGeocode(locationId) {
       try {

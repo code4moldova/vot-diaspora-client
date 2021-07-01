@@ -9,7 +9,7 @@
           </p>
           <div class="share-actions">
             <a
-              href="mailto:info@example.com?&subject=&body=Îți mai aduci aminte de cozile de la vot la care am stat în 2019? http://www.votdiaspora.md"
+              :href="mailtoUrl"
               target="_blank"
               rel="noopener noreferrer"
               class="share-cta email p-3"
@@ -21,7 +21,7 @@
               />
             </a>
             <a
-              href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.votdiaspora.md"
+              :href="shareFacebookUrl"
               target="_blank"
               rel="noopener noreferrer"
               class="share-cta fb p-3 mx-1"
@@ -33,7 +33,7 @@
               />
             </a>
             <a
-              href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.votdiaspora.md&text=Pe%2026%20mai%202019%20diaspora%20are%20un%20cuv%C3%A2nt%20de%20spus.%20Rom%C3%A2nii%20de%20pretutindeni%20au%20dreptul%20de%20a-%C8%99i%20alege%20reprezentan%C8%9Bii%20%C3%AEn%20Parlamentul%20European."
+              :href="shareTwitterUrl"
               target="_blank"
               rel="noopener noreferrer"
               class="share-cta tw p-3"
@@ -90,3 +90,37 @@
   }
 }
 </style>
+
+<script>
+import sharedState from './sharedState'
+
+const defaultUrl = 'https://www.votdiaspora.md'
+
+export default {
+  data() {
+    return sharedState
+  },
+  computed: {
+    votdiasporaUrl() {
+      const { lat, long } = this.coordinates
+      if (lat && long) {
+        return `${defaultUrl}?lat=${lat}&long=${long}`
+      }
+      return defaultUrl
+    },
+    mailtoUrl() {
+      const urlForMail = this.votdiasporaUrl.replace('&', '%26')
+      return `mailto:info@example.com?&subject=&body=Îți mai aduci aminte de cozile de la vot la care am stat în 2019? ${urlForMail}`
+    },
+    shareFacebookUrl() {
+      const url = encodeURIComponent(this.votdiasporaUrl)
+      return `https://www.facebook.com/sharer/sharer.php?u=${url}`
+    },
+    shareTwitterUrl() {
+      const url = encodeURIComponent(this.votdiasporaUrl)
+      return `https://twitter.com/intent/tweet?url=${url}&text=Pe%2026%20mai%202019%20diaspora%20are%20un%20cuv%C3%A2nt%20de%20spus.%20Rom%C3%A2nii%20de%20pretutindeni%20au%20dreptul%20de%20a-%C8%99i%20alege%20reprezentan%C8%9Bii%20%C3%AEn%20Parlamentul%20European.`
+    },
+  },
+}
+</script>
+>
