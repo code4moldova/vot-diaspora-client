@@ -94,7 +94,7 @@
 <script>
 import sharedState from './sharedState'
 
-const defaultUrl = 'https://www.votdiaspora.md'
+const defaultUrl = 'https://votdiaspora.md'
 
 export default {
   data() {
