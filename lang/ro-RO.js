@@ -60,6 +60,8 @@ export default {
     text:
       'Distribuie aceste informații în social media pentru a ajuta cât mai mulți moldoveni să afle unde pot vota la alegerile parlamentare din 2021, de ce documente au nevoie și alte sfaturi utile.',
   },
+  social_share_message:
+    'Pe 11 iulie 2021 diaspora are un cuvânt de spus. Moldovenii de pretutindeni au dreptul de a-și alege reprezentanții în Parlament.',
   donate_card: {
     title: 'Susține-ne',
     text:
