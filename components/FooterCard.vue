@@ -108,9 +108,12 @@ export default {
       }
       return defaultUrl
     },
+    shareText() {
+      return encodeURIComponent(this.$t('social_share_message'))
+    },
     mailtoUrl() {
       const urlForMail = this.votdiasporaUrl.replace('&', '%26')
-      return `mailto:info@example.com?&subject=&body=Îți mai aduci aminte de cozile de la vot la care am stat în 2019? ${urlForMail}`
+      return `mailto:info@example.com?&subject=&body=${this.shareText} ${urlForMail}`
     },
     shareFacebookUrl() {
       const url = encodeURIComponent(this.votdiasporaUrl)
@@ -118,7 +121,7 @@ export default {
     },
     shareTwitterUrl() {
       const url = encodeURIComponent(this.votdiasporaUrl)
-      return `https://twitter.com/intent/tweet?url=${url}&text=Pe%2026%20mai%202019%20diaspora%20are%20un%20cuv%C3%A2nt%20de%20spus.%20Rom%C3%A2nii%20de%20pretutindeni%20au%20dreptul%20de%20a-%C8%99i%20alege%20reprezentan%C8%9Bii%20%C3%AEn%20Parlamentul%20European.`
+      return `https://twitter.com/intent/tweet?url=${url}&text=${this.shareText}`
     },
   },
 }
