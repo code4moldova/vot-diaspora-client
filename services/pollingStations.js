@@ -6,7 +6,7 @@ import {
   sortWith,
   slice,
   toPairs,
-  reduce,
+  fromPairs,
 } from 'ramda'
 import stations from '../data/polling-stations.json'
 import { getDistanceInKm } from '../utils/geoMath'
