@@ -53,6 +53,7 @@ import sharedState from './sharedState'
 import pollingStationMarker from '~/assets/polling_station_marker.svg'
 import houseMarker from '~/assets/house_marker.svg'
 import PollingStationCard from '~/components/PollingStationCard'
+import { getNearClosest } from '~/services/pollingStations'
 
 export default {
   components: {
@@ -101,13 +102,7 @@ export default {
     async applyHomeCoordinates(latitude, longitude) {
       this.addMarker(latitude, longitude, houseMarker)
       const poolingResults = await this.findPoolingStation(latitude, longitude)
-      this.pollingStations = [].concat(
-        ...poolingResults.map((g) =>
-          g.pollingStations.map((ps) => {
-            return { ...ps, distance: g.distance }
-          })
-        )
-      )
+      this.pollingStations = poolingResults
 
       this.pollingStations.forEach((c) => {
         this.addMarker(c.latitude, c.longitude, pollingStationMarker)
@@ -187,15 +182,8 @@ export default {
       }
     },
     async findPoolingStation(latitude, longitude) {
-      try {
-        const result = await fetch(
-          `${process.env.NUXT_ENV_API_URL}/polling-station/near-me?latitude=${latitude}&longitude=${longitude}`
-        )
-        this.hasFetchedData = true
-        return await result.json()
-      } catch (error) {
-        this.showErrorMessage = true
-      }
+      this.hasFetchedData = true
+      return await getNearClosest(latitude, longitude)
     },
     addMarker(lat, lng, iconPath) {
       const H = window.H

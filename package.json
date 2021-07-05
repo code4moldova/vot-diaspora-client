@@ -23,6 +23,7 @@
     "debounce": "^1.2.0",
     "nuxt": "^2.14.6",
     "nuxt-i18n": "^6.15.1",
+    "ramda": "^0.27.1",
     "vue-typeahead-bootstrap": "^2.5.2"
   },
   "devDependencies": {
