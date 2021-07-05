@@ -28,7 +28,8 @@ export const getNearClosest = (lat, long, limit = 6) => {
     map(
       pipe(
         toPairs,
-        reduce((c, [key, value]) => ({ ...c, [camelize(key)]: value }), {})
+        map(([key, value]) => [camelize(key), value]),
+        fromPairs
       )
     )
   )(stations)
