@@ -23,6 +23,7 @@ export default {
     seeStreets: 'Vezi pe harta',
     pollingStationNumber: 'Secția de votare Nr.',
     address: 'Adresa:',
+    nrInregistrari: 'Votanți înregistrați',
   },
   exceptional_cases: {
     case1_title:

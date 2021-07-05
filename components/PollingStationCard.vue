@@ -20,7 +20,13 @@
         <span class="mr-1 font-weight-bold">
           {{ $t('pollingStationCard.distance') }}
         </span>
-        {{ distanceInKm + ' km' }}
+        {{ pollingStation.distance + ' km' }}
+      </p>
+      <p v-if="pollingStation.totalInregistrari" class="mt-2">
+        <span class="mr-1 font-weight-bold"
+          >{{ $t('pollingStationCard.nrInregistrari') }}:
+        </span>
+        {{ pollingStation.totalInregistrari }}
       </p>
       <div v-show="showStreet"></div>
     </div>
@@ -37,16 +43,6 @@ export default {
     return {
       showStreet: false,
     }
-  },
-  computed: {
-    distanceInKm() {
-      if (this.pollingStation.distance === 0) return 0
-      const distanceInKm = this.pollingStation.distance / 1000
-      if (distanceInKm >= 1) return distanceInKm.toFixed(0)
-      // If distance is lower than 100 meters show 0 km instead of 0.0 km
-      if (distanceInKm < 0.1) return 0
-      return distanceInKm.toFixed(1)
-    },
   },
   methods: {
     openSection() {
