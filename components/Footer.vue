@@ -109,7 +109,7 @@
               src="../assets/logo_code4md.svg"
               class="mt-3 mb-2" /></nuxt-link
           ><br />
-          <span>&copy; 2020 Code for Moldova.</span>
+          <span>&copy; 2021 Code for Moldova.</span>
           <p>
             Organizație neguvernamentală independentă, neafiliată politic și
             apolitică.

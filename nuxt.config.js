@@ -1,3 +1,6 @@
+const description =
+  'VotDiaspora.md gaseste cea mai apropiata sectie de vot pentru persoanele din Diaspora si informații despre cum pot vota la alegerile parlamentare din Republica Moldova din 11 Iulie 2021.'
+
 export default {
   env: {
     NUXT_ENV_API_URL:
@@ -20,8 +23,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          'VotDiaspora.md gaseste cea mai apropiata sectie de vot pentru persoanele din Diaspora si informații despre cum pot vota la alegerile prezidentiale din Republica Moldova din 15 noiembrie 2020.',
+        content: description,
       },
       { property: 'og:title', content: 'Vot Diaspora Republica Moldova' },
       {
@@ -34,8 +36,7 @@ export default {
       },
       {
         property: 'og:description',
-        content:
-          'VotDiaspora.md gaseste cea mai apropiata sectie de vot pentru persoanele din Diaspora si informații despre cum pot vota la alegerile prezidentiale din Republica Moldova din 15 noiembrie 2020.',
+        content: description,
       },
       { property: 'og:url', content: 'https://votdiaspora.md' },
       { property: 'og:type', content: 'website' },
